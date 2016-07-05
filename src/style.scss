@@ -1,0 +1,59 @@
+$gel-grid-enable--markup-output: true;
+$gel-type-enable--markup-output: true;
+$gel-grid-1280-toggle-class: false;
+$gel-grid-enable--box-sizing: true;
+$gel-type-enable--font-family: true;
+
+@import "../bower_components/sass-mq/mq";
+@import "../bower_components/gel-sass-tools/sass-tools";
+@import "../bower_components/gel-typography/typography";
+@import "../bower_components/gel-grid/grid";
+
+$black: #000;
+$charcoal: #2a2a2a;
+$concrete: #777;
+$gray: #252525;
+$guidance-red: #af372a;
+$idcta-blue: #85bae6;
+$magenta: #f54997;
+$night: #1e1e1e;
+$platinum: #eee;
+$raspberry: #cf3e80;
+$silver: #bbb;
+$stone: #444;
+$store-blue: #00bcec;
+$storm: #333;
+$white: #fff;
+
+
+$default-padding:8px;
+
+
+body{
+background-color: $gray;
+}
+
+.block{
+  background-color: $storm;
+  padding: $default-padding;
+
+  .programme-block{
+    padding-top: 16px;
+  }
+
+  .programme-title,
+  .episode-title{
+    color: $platinum;
+    padding-bottom: 8px;
+  }
+
+  .programme-synopsis,
+  .availability{
+    color: $silver;
+  }
+
+  .label{
+    color: $magenta;
+    padding: 24px 0px 8px 0px;
+  }
+}
