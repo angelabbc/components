@@ -1,0 +1,138 @@
+// iplayer-matter/_typography.scss
+//
+
+// EAGLE
+//
+
+%ipl-eagle,
+.ipl-eagle {
+  font-size: 32px;
+  line-height: 36px;
+
+  @include mq($from: 320px) {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  @include mq($from: gel-bp-m) {
+    font-size: 46px;
+    line-height: 54px;
+  }
+}
+
+
+// BUZZARD
+//
+
+%ipl-buzzard,
+.ipl-buzzard {
+  font-size: 24px;
+  line-height: 24px;
+
+  @include mq($from: 320px) {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  @include mq($from: gel-bp-m) {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+
+
+// GOOSE
+//
+
+%ipl-goose,
+.ipl-goose {
+  font-size: 18px;
+  line-height: 20px;
+
+  @include mq($from: 320px) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  @include mq($from: gel-bp-m) {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+
+// SKYLARK
+//
+
+%ipl-skylark,
+.ipl-skylark {
+  font-size: 15px;
+  line-height: 20px;
+
+  @include mq($from: 320px) {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  @include mq($from: gel-bp-m) {
+    // Inherit from above.
+  }
+}
+
+
+// CANARY
+//
+
+%ipl-canary,
+.ipl-canary {
+  font-size: 15px;
+  line-height: 18px;
+
+  @include mq($from: 320px) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  @include mq($from: gel-bp-m) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+// BULLFINCH
+//
+
+%ipl-bullfinch,
+.ipl-bullfinch {
+  font-size: 13px;
+  line-height: 16px;
+
+  @include mq($from: 320px) {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  @include mq($from: gel-bp-m) {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+
+
+// ROBIN
+//
+
+%ipl-robin,
+.ipl-robin {
+  font-size: 11px;
+  line-height: 16px;
+
+  @include mq($from: 320px) {
+    // Inherit from above.
+  }
+
+  @include mq($from: gel-bp-m) {
+    // Inherit from above.
+  }
+}

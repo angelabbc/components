@@ -1412,6 +1412,78 @@ body {
   .false .gel-23\/24\@xxl {
     width: 95.83333% !important; } }
 
+.ipl-eagle {
+  font-size: 32px;
+  line-height: 36px; }
+  @media (min-width: 20em) {
+    .ipl-eagle {
+      font-size: 36px;
+      line-height: 42px; } }
+  @media (min-width: 37.5em) {
+    .ipl-eagle {
+      font-size: 46px;
+      line-height: 54px; } }
+
+.ipl-buzzard {
+  font-size: 24px;
+  line-height: 24px; }
+  @media (min-width: 20em) {
+    .ipl-buzzard {
+      font-size: 24px;
+      line-height: 28px; } }
+  @media (min-width: 37.5em) {
+    .ipl-buzzard {
+      font-size: 32px;
+      line-height: 32px; } }
+
+.ipl-goose {
+  font-size: 18px;
+  line-height: 20px; }
+  @media (min-width: 20em) {
+    .ipl-goose {
+      font-size: 20px;
+      line-height: 24px; } }
+  @media (min-width: 37.5em) {
+    .ipl-goose {
+      font-size: 20px;
+      line-height: 20px; } }
+
+.ipl-skylark {
+  font-size: 15px;
+  line-height: 20px; }
+  @media (min-width: 20em) {
+    .ipl-skylark {
+      font-size: 16px;
+      line-height: 22px; } }
+
+.ipl-canary {
+  font-size: 15px;
+  line-height: 18px; }
+  @media (min-width: 20em) {
+    .ipl-canary {
+      font-size: 16px;
+      line-height: 20px; } }
+  @media (min-width: 37.5em) {
+    .ipl-canary {
+      font-size: 14px;
+      line-height: 20px; } }
+
+.ipl-bullfinch {
+  font-size: 13px;
+  line-height: 16px; }
+  @media (min-width: 20em) {
+    .ipl-bullfinch {
+      font-size: 14px;
+      line-height: 16px; } }
+  @media (min-width: 37.5em) {
+    .ipl-bullfinch {
+      font-size: 13px;
+      line-height: 16px; } }
+
+.ipl-robin {
+  font-size: 11px;
+  line-height: 16px; }
+
 body {
   background-color: #252525;
   margin: 80px 0 0 0; }
