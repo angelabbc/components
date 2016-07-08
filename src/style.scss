@@ -26,26 +26,101 @@ $storm: #333;
 $white: #fff;
 
 
-$default-padding:8px;
-
+$default-padding:16px;
+$link-color: $platinum;
+$link-hover-color: $magenta;
 
 body{
-background-color: $gray;
+  background-color: $gray;
+  margin: 80px 0 0 0;
 }
 
-.block{
-  background-color: $storm;
-  padding: $default-padding;
 
-  .programme-block{
-    padding-top: 16px;
+a{
+  color: $link-color;
+  text-decoration: none;
+  &:hover{
+    color: $link-hover-color;
+    svg polygon{
+      fill:$link-hover-color;
+    }
+  }
+}
+
+@mixin background-header-image($pid) {
+  background:
+  linear-gradient(
+    rgba(51, 51, 51, 0.51) 0%,
+    rgba(51, 51, 51, 1) 70%
+  ),
+  url(../assets/#{$pid}.jpg) no-repeat;
+  background-size: 100%;
+
+  @include mq($from: gel-bp-m) {
+    background:
+    linear-gradient(
+      rgba(51, 51, 51, 0.51) 0%,
+      rgba(51, 51, 51, 1) 50%
+    ),
+    url(../assets/#{$pid}.jpg) no-repeat;
+    background-size: 100%;
   }
 
-  .programme-title,
-  .episode-title{
+
+}
+
+.added-item-info{
+  position: relative;
+  background-color: $storm;
+  height:326px;
+  padding:$default-padding;
+
+  &.item-1 {
+    @include background-header-image('p03z6pzz');
+  }
+
+  &.item-2 {
+    @include background-header-image('p03kfbmx');
+  }
+
+  &.item-3 {
+    @include background-header-image('p03s4hb2');
+  }
+}
+
+
+
+
+  .programme-block{
+    padding-top: 140px;
+    height:auto;
+
+
+    @include mq($from: gel-bp-m) {
+      padding-top: 120px;
+      height:88px;
+    }
+
+    @include mq($from: gel-bp-l) {
+      padding-top: 108px;
+      height:88px;
+    }
+
+  }
+
+  .programme-title{
     color: $platinum;
     padding-bottom: 8px;
   }
+
+  .latest-episode-btn{
+    padding-top: 8px;
+    color: $platinum;
+  }
+
+    .episode-title{
+      color: $platinum;
+    }
 
   .programme-synopsis,
   .availability{
@@ -55,5 +130,61 @@ background-color: $gray;
   .label{
     color: $magenta;
     padding: 24px 0px 8px 0px;
+
+    @include mq($from: gel-bp-m) {
+      padding-top: 24px;
+    }
   }
-}
+
+  .close-icon{
+    position: absolute;
+
+    top: 0px;
+    right:0px;
+
+
+    &:hover{
+      polygon{
+        fill:$link-hover-color;
+            }
+    }
+  }
+
+  .close-icon svg{
+    padding: $default-padding;
+    height:16px;
+    width:16px;
+  }
+
+  .close-icon polygon{
+    fill:$link-color;
+  }
+
+
+  .tleo-block{
+    background-color: $storm;
+    padding: $default-padding;
+
+  }
+
+  .tleo-link{
+    color: $platinum;
+    border-top: 1px solid $concrete;
+    padding-top: 12px;
+
+  }
+
+  .gel-layout__item{
+    margin-bottom: 16px;
+  }
+
+  .episode-title svg{
+    height:13px;
+    width:11px;
+    padding-right:8px;
+
+    polygon{
+      fill:$platinum;
+    }
+
+  }

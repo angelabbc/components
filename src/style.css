@@ -1413,22 +1413,110 @@ body {
     width: 95.83333% !important; } }
 
 body {
-  background-color: #252525; }
+  background-color: #252525;
+  margin: 80px 0 0 0; }
 
-.block {
+a {
+  color: #eee;
+  text-decoration: none; }
+  a:hover {
+    color: #f54997; }
+    a:hover svg polygon {
+      fill: #f54997; }
+
+.added-item-info {
+  position: relative;
   background-color: #333;
-  padding: 8px; }
-  .block .programme-block {
-    padding-top: 16px; }
-  .block .programme-title,
-  .block .episode-title {
-    color: #eee;
-    padding-bottom: 8px; }
-  .block .programme-synopsis,
-  .block .availability {
-    color: #bbb; }
-  .block .label {
-    color: #f54997;
-    padding: 24px 0px 8px 0px; }
+  height: 326px;
+  padding: 16px; }
+  .added-item-info.item-1 {
+    background: linear-gradient(rgba(51, 51, 51, 0.51) 0%, #333333 70%), url(../assets/p03z6pzz.jpg) no-repeat;
+    background-size: 100%; }
+    @media (min-width: 37.5em) {
+      .added-item-info.item-1 {
+        background: linear-gradient(rgba(51, 51, 51, 0.51) 0%, #333333 50%), url(../assets/p03z6pzz.jpg) no-repeat;
+        background-size: 100%; } }
+  .added-item-info.item-2 {
+    background: linear-gradient(rgba(51, 51, 51, 0.51) 0%, #333333 70%), url(../assets/p03kfbmx.jpg) no-repeat;
+    background-size: 100%; }
+    @media (min-width: 37.5em) {
+      .added-item-info.item-2 {
+        background: linear-gradient(rgba(51, 51, 51, 0.51) 0%, #333333 50%), url(../assets/p03kfbmx.jpg) no-repeat;
+        background-size: 100%; } }
+  .added-item-info.item-3 {
+    background: linear-gradient(rgba(51, 51, 51, 0.51) 0%, #333333 70%), url(../assets/p03s4hb2.jpg) no-repeat;
+    background-size: 100%; }
+    @media (min-width: 37.5em) {
+      .added-item-info.item-3 {
+        background: linear-gradient(rgba(51, 51, 51, 0.51) 0%, #333333 50%), url(../assets/p03s4hb2.jpg) no-repeat;
+        background-size: 100%; } }
+
+.programme-block {
+  padding-top: 140px;
+  height: auto; }
+  @media (min-width: 37.5em) {
+    .programme-block {
+      padding-top: 120px;
+      height: 88px; } }
+  @media (min-width: 56.25em) {
+    .programme-block {
+      padding-top: 108px;
+      height: 88px; } }
+
+.programme-title {
+  color: #eee;
+  padding-bottom: 8px; }
+
+.latest-episode-btn {
+  padding-top: 8px;
+  color: #eee; }
+
+.episode-title {
+  color: #eee; }
+
+.programme-synopsis,
+.availability {
+  color: #bbb; }
+
+.label {
+  color: #f54997;
+  padding: 24px 0px 8px 0px; }
+  @media (min-width: 37.5em) {
+    .label {
+      padding-top: 24px; } }
+
+.close-icon {
+  position: absolute;
+  top: 0px;
+  right: 0px; }
+  .close-icon:hover polygon {
+    fill: #f54997; }
+
+.close-icon svg {
+  padding: 16px;
+  height: 16px;
+  width: 16px; }
+
+.close-icon polygon {
+  fill: #eee; }
+
+.tleo-block {
+  background-color: #333;
+  padding: 16px; }
+
+.tleo-link {
+  color: #eee;
+  border-top: 1px solid #777;
+  padding-top: 12px; }
+
+.gel-layout__item {
+  margin-bottom: 16px; }
+
+.episode-title svg {
+  height: 13px;
+  width: 11px;
+  padding-right: 8px; }
+  .episode-title svg polygon {
+    fill: #eee; }
 
 /*# sourceMappingURL=style.css.map */
