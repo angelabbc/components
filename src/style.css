@@ -1412,77 +1412,116 @@ body {
   .false .gel-23\/24\@xxl {
     width: 95.83333% !important; } }
 
-.ipl-eagle {
+.ipl-eagle,
+.ipl-eagle-bold {
   font-size: 32px;
   line-height: 36px; }
   @media (min-width: 20em) {
-    .ipl-eagle {
+    .ipl-eagle,
+    .ipl-eagle-bold {
       font-size: 36px;
       line-height: 42px; } }
   @media (min-width: 37.5em) {
-    .ipl-eagle {
+    .ipl-eagle,
+    .ipl-eagle-bold {
       font-size: 46px;
       line-height: 54px; } }
 
-.ipl-buzzard {
+.ipl-eagle-bold {
+  font-weight: bold; }
+
+.ipl-buzzard,
+.ipl-buzzard-bold {
   font-size: 24px;
   line-height: 24px; }
   @media (min-width: 20em) {
-    .ipl-buzzard {
+    .ipl-buzzard,
+    .ipl-buzzard-bold {
       font-size: 24px;
       line-height: 28px; } }
   @media (min-width: 37.5em) {
-    .ipl-buzzard {
+    .ipl-buzzard,
+    .ipl-buzzard-bold {
       font-size: 32px;
       line-height: 32px; } }
 
-.ipl-goose {
+.ipl-buzzard-bold {
+  font-weight: bold; }
+
+.ipl-goose,
+.ipl-goose-bold {
   font-size: 18px;
   line-height: 20px; }
   @media (min-width: 20em) {
-    .ipl-goose {
+    .ipl-goose,
+    .ipl-goose-bold {
       font-size: 20px;
       line-height: 24px; } }
   @media (min-width: 37.5em) {
-    .ipl-goose {
+    .ipl-goose,
+    .ipl-goose-bold {
       font-size: 20px;
       line-height: 20px; } }
 
-.ipl-skylark {
+.ipl-goose-bold {
+  font-weight: bold; }
+
+.ipl-skylark,
+.ipl-skylark-bold {
   font-size: 15px;
   line-height: 20px; }
   @media (min-width: 20em) {
-    .ipl-skylark {
+    .ipl-skylark,
+    .ipl-skylark-bold {
       font-size: 16px;
       line-height: 22px; } }
 
-.ipl-canary {
+.ipl-skylark-bold {
+  font-weight: bold; }
+
+.ipl-canary,
+.ipl-canary-bold {
   font-size: 15px;
   line-height: 18px; }
   @media (min-width: 20em) {
-    .ipl-canary {
+    .ipl-canary,
+    .ipl-canary-bold {
       font-size: 16px;
       line-height: 20px; } }
   @media (min-width: 37.5em) {
-    .ipl-canary {
+    .ipl-canary,
+    .ipl-canary-bold {
       font-size: 14px;
       line-height: 20px; } }
 
-.ipl-bullfinch {
+.ipl-canary-bold {
+  font-weight: bold; }
+
+.ipl-bullfinch,
+.ipl-bulfinch-bold {
   font-size: 13px;
   line-height: 16px; }
   @media (min-width: 20em) {
-    .ipl-bullfinch {
+    .ipl-bullfinch,
+    .ipl-bulfinch-bold {
       font-size: 14px;
       line-height: 16px; } }
   @media (min-width: 37.5em) {
-    .ipl-bullfinch {
+    .ipl-bullfinch,
+    .ipl-bulfinch-bold {
       font-size: 13px;
       line-height: 16px; } }
 
-.ipl-robin {
+.ipl-bulfinch-bold {
+  font-weight: bold; }
+
+.ipl-robin,
+.ipl-robin-bold {
   font-size: 11px;
   line-height: 16px; }
+
+.ipl-robin-bold {
+  font-weight: bold; }
 
 body {
   background-color: #252525;
