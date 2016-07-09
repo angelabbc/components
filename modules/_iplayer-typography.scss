@@ -150,7 +150,7 @@
   }
 
   %ipl-bullfinch-bold,
-  .ipl-bulfinch-bold{
+  .ipl-bullfinch-bold{
     @extend .ipl-bullfinch;
     font-weight: bold;
   }
@@ -162,6 +162,7 @@
   .ipl-robin {
     font-size: 11px;
     line-height: 16px;
+    text-transform: uppercase;
 
     @include mq($from: 320px) {
       // Inherit from above.
@@ -177,3 +178,7 @@
     @extend .ipl-robin;
     font-weight: bold;
   }
+
+body{
+  -webkit-font-smoothing: antialiased;
+}

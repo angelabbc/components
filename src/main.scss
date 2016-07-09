@@ -8,24 +8,8 @@ $gel-type-enable--font-family: true;
 @import "../bower_components/gel-sass-tools/sass-tools";
 @import "../bower_components/gel-typography/typography";
 @import "../bower_components/gel-grid/grid";
-@import "iplayer-typography";
-
-$black: #000;
-$charcoal: #2a2a2a;
-$concrete: #777;
-$gray: #252525;
-$guidance-red: #af372a;
-$idcta-blue: #85bae6;
-$magenta: #f54997;
-$night: #1e1e1e;
-$platinum: #eee;
-$raspberry: #cf3e80;
-$silver: #bbb;
-$stone: #444;
-$store-blue: #00bcec;
-$storm: #333;
-$white: #fff;
-
+@import "../modules/iplayer-typography";
+@import "../modules/iplayer-colours";
 
 $default-padding:16px;
 $link-color: $platinum;
@@ -34,6 +18,7 @@ $link-hover-color: $magenta;
 body{
   background-color: $gray;
   margin: 80px 0 0 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 

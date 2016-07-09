@@ -1498,34 +1498,36 @@ body {
   font-weight: bold; }
 
 .ipl-bullfinch,
-.ipl-bulfinch-bold {
+.ipl-bullfinch-bold {
   font-size: 13px;
   line-height: 16px; }
   @media (min-width: 20em) {
     .ipl-bullfinch,
-    .ipl-bulfinch-bold {
+    .ipl-bullfinch-bold {
       font-size: 14px;
       line-height: 16px; } }
   @media (min-width: 37.5em) {
     .ipl-bullfinch,
-    .ipl-bulfinch-bold {
+    .ipl-bullfinch-bold {
       font-size: 13px;
       line-height: 16px; } }
 
-.ipl-bulfinch-bold {
+.ipl-bullfinch-bold {
   font-weight: bold; }
 
 .ipl-robin,
 .ipl-robin-bold {
   font-size: 11px;
-  line-height: 16px; }
+  line-height: 16px;
+  text-transform: uppercase; }
 
 .ipl-robin-bold {
   font-weight: bold; }
 
 body {
   background-color: #252525;
-  margin: 80px 0 0 0; }
+  margin: 80px 0 0 0;
+  -webkit-font-smoothing: antialiased; }
 
 a {
   color: #eee;
@@ -1630,4 +1632,4 @@ a {
   .episode-title svg polygon {
     fill: #eee; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */
