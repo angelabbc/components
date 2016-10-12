@@ -33,49 +33,51 @@ a{
   }
 }
 
-@mixin background-header-image($pid) {
-  background:
-  linear-gradient(
-    rgba(51, 51, 51, 0.51) 0%,
-    rgba(51, 51, 51, 1) 70%
-  ),
-  url(../assets/#{$pid}.jpg) no-repeat;
-  background-size: 100%;
-
-  @include mq($from: gel-bp-m) {
-    background:
-    linear-gradient(
-      rgba(51, 51, 51, 0.51) 0%,
-      rgba(51, 51, 51, 1) 50%
-    ),
-    url(../assets/#{$pid}.jpg) no-repeat;
-    background-size: 100%;
-  }
-
-
-}
-
-.added-item-info{
+.added-item {
   position: relative;
-  background-color: $storm;
-  height:326px;
-  padding:$default-padding;
 
-  &.item-1 {
-    @include background-header-image('p03z6pzz');
+  .background-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    width: 100%;
   }
 
-  &.item-2 {
-    @include background-header-image('p03kfbmx');
-  }
+  .added-item-info{
+    position: relative;
+    background-color: $storm;
+    height:326px;
+    padding:$default-padding;
 
-  &.item-3 {
-    @include background-header-image('p03s4hb2');
+    &.item-1 {
+      background: linear-gradient(
+        rgba(51, 51, 51, 0.51) 0%,
+        rgba(51, 51, 51, 1) 20%
+      ) no-repeat;
+      background-size: 100%;
+
+      @include mq($from: gel-bp-m) {
+        background:
+        linear-gradient(
+          rgba(51, 51, 51, 0.51) 0%,
+          rgba(51, 51, 51, 1) 50%
+        ) no-repeat;
+        background-size: 100%;
+      }
+
+      @include mq($from: gel-bp-l) {
+        background:
+        linear-gradient(
+          rgba(51, 51, 51, 0.51) 0%,
+          rgba(51, 51, 51, 1) 100%
+        ) no-repeat;
+        background-size: 100%;
+      }
+    }
   }
 }
-
-
-
 
   .programme-block{
     padding-top: 140px;

@@ -1525,6 +1525,9 @@ body {
   font-weight: bold; }
 
 body {
+  -webkit-font-smoothing: antialiased; }
+
+body {
   background-color: #252525;
   margin: 80px 0 0 0;
   -webkit-font-smoothing: antialiased; }
@@ -1537,32 +1540,31 @@ a {
     a:hover svg polygon {
       fill: #f54997; }
 
-.added-item-info {
-  position: relative;
-  background-color: #333;
-  height: 326px;
-  padding: 16px; }
-  .added-item-info.item-1 {
-    background: linear-gradient(rgba(51, 51, 51, 0.51) 0%, #333333 70%), url(../assets/p03z6pzz.jpg) no-repeat;
-    background-size: 100%; }
-    @media (min-width: 37.5em) {
-      .added-item-info.item-1 {
-        background: linear-gradient(rgba(51, 51, 51, 0.51) 0%, #333333 50%), url(../assets/p03z6pzz.jpg) no-repeat;
-        background-size: 100%; } }
-  .added-item-info.item-2 {
-    background: linear-gradient(rgba(51, 51, 51, 0.51) 0%, #333333 70%), url(../assets/p03kfbmx.jpg) no-repeat;
-    background-size: 100%; }
-    @media (min-width: 37.5em) {
-      .added-item-info.item-2 {
-        background: linear-gradient(rgba(51, 51, 51, 0.51) 0%, #333333 50%), url(../assets/p03kfbmx.jpg) no-repeat;
-        background-size: 100%; } }
-  .added-item-info.item-3 {
-    background: linear-gradient(rgba(51, 51, 51, 0.51) 0%, #333333 70%), url(../assets/p03s4hb2.jpg) no-repeat;
-    background-size: 100%; }
-    @media (min-width: 37.5em) {
-      .added-item-info.item-3 {
-        background: linear-gradient(rgba(51, 51, 51, 0.51) 0%, #333333 50%), url(../assets/p03s4hb2.jpg) no-repeat;
-        background-size: 100%; } }
+.added-item {
+  position: relative; }
+  .added-item .background-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    width: 100%; }
+  .added-item .added-item-info {
+    position: relative;
+    background-color: #333;
+    height: 326px;
+    padding: 16px; }
+    .added-item .added-item-info.item-1 {
+      background: linear-gradient(rgba(51, 51, 51, 0.51) 0%, #333333 20%) no-repeat;
+      background-size: 100%; }
+      @media (min-width: 37.5em) {
+        .added-item .added-item-info.item-1 {
+          background: linear-gradient(rgba(51, 51, 51, 0.51) 0%, #333333 50%) no-repeat;
+          background-size: 100%; } }
+      @media (min-width: 56.25em) {
+        .added-item .added-item-info.item-1 {
+          background: linear-gradient(rgba(51, 51, 51, 0.51) 0%, #333333 100%) no-repeat;
+          background-size: 100%; } }
 
 .programme-block {
   padding-top: 140px;
