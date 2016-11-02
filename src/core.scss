@@ -1,0 +1,24 @@
+$gel-grid-enable--markup-output: true;
+$gel-type-enable--markup-output: true;
+$gel-grid-1280-toggle-class: false;
+$gel-grid-enable--box-sizing: true;
+$gel-type-enable--font-family: true;
+
+@import "../bower_components/sass-mq/mq";
+@import "../bower_components/gel-sass-tools/sass-tools";
+@import "../bower_components/gel-typography/typography";
+@import "../bower_components/gel-grid/grid";
+@import "../modules/iplayer-colours";
+@import "../modules/iplayer-typography";
+@import "../modules/page-template";
+
+
+$default-padding:16px;
+$link-color: $platinum;
+$link-hover-color: $magenta;
+
+body{
+  background-color: $gray;
+  margin: 80px 0 0 0;
+  -webkit-font-smoothing: antialiased;
+}
