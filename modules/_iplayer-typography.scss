@@ -53,6 +53,28 @@
   }
 
 
+
+  // HERON
+  //
+
+  %ipl-heron,
+  .ipl-heron {
+    font-size: 20px;
+    line-height: 24px;
+
+    @include mq($from: gel-bp-m) {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+
+  %ipl-heron-bold,
+  .ipl-heron-bold{
+    @extend .ipl-heron;
+    font-weight: bold;
+  }
+
+
   // GOOSE
   //
 
@@ -181,4 +203,12 @@
 
 body{
   -webkit-font-smoothing: antialiased;
+}
+
+.title{
+  color: $platinum;
+}
+
+.body-copy{
+  color: $silver
 }
