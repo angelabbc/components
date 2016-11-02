@@ -1,9 +1,10 @@
 // Components page template
 
-.header-block > .body-copy{
-  border-bottom: solid 1px $storm;
-  padding: 0 0 32px 0;
+.page-header{
+  background-color: $night;
+  padding: 80px 0 40px 0;
   margin: 0 0 32px 0;
+
 }
 
 .demo-title{
@@ -13,6 +14,11 @@
 
 .demo-body{
   margin: 0;
+  display: table-cell;
+  @include mq($from: gel-bp-m) {
+    display: table-cell;
+    vertical-align: middle;
+  }
 }
 
 .typo-settings{
@@ -23,4 +29,54 @@
 .typography-demo{
   padding:32px 0;
   border-bottom: 1px solid $storm;
+
+  @include mq($from: gel-bp-m) {
+    display: table;
+  }
+}
+
+.page-titles{
+    margin: 48px 0 24px 0;
+
+&>.title{
+  margin:0;
+  padding-bottom: 8px;
+  }
+}
+
+.title-pipe{
+  width:24px;
+  border-bottom: solid 1px $raspberry;
+}
+
+.typo-table{
+  padding: 32px 0;
+}
+
+table{
+  width: 100%;
+  margin-top: 32px;
+  border-collapse: collapse;
+
+}
+
+.table-header{
+  background-color: $night;
+  border: 1px solid $storm;
+}
+
+th,
+td{
+  border: 1px solid $storm;
+  padding: 8px;
+  width: 120px;
+  color: $platinum;
+  height: 50px;
+
+
+}
+
+td{
+  color: $silver;
+  height: 40px;
 }
