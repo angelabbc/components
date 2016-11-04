@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "IPlayer UX Styleguide",
   "scripts": {
-    "scss:watch": "sass --watch src/core.scss:src/core.css modules"
+    "scss:watch": "sass --watch modules:src/css"
   },
   "private": true,
   "repository": {
