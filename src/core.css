@@ -1565,6 +1565,17 @@ body {
 .typo-settings {
   color: #f54997;
   margin: 8px 0; }
+  .typo-settings--g2, .typo-settings--g3 {
+    display: none; }
+  @media (min-width: 25em) {
+    .typo-settings--g1 {
+      display: none; } }
+  @media (min-width: 25em) and (max-width: 37.49em) {
+    .typo-settings--g2 {
+      display: block; } }
+  @media (min-width: 37.5em) {
+    .typo-settings--g3 {
+      display: block; } }
 
 .typography-demo {
   padding: 32px 0;

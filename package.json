@@ -1,0 +1,19 @@
+{
+  "name": "iplayer-ux-styleguide",
+  "version": "1.0.0",
+  "description": "IPlayer UX Styleguide",
+  "scripts": {
+    "scss:watch": "sass --watch src/core.scss:src/core.css modules"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelabbc/components.git"
+  },
+  "author": "Angela Luk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelabbc/components/issues"
+  },
+  "homepage": "https://github.com/angelabbc/components#readme"
+}
