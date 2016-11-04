@@ -8,7 +8,8 @@ var birdParameters = [{
     g1: '32/36'
   },
   exampleText: exampleText
-}, {
+},
+{
   typeSize: "Buzzard",
   typeSettings: {
     g3: "32/32",
@@ -16,7 +17,8 @@ var birdParameters = [{
     g1: '24/24'
   },
   exampleText: exampleText
-}, {
+},
+{
   typeSize: "Heron",
   typeSettings: {
     g3: "24/28",
@@ -24,7 +26,8 @@ var birdParameters = [{
     g1: '20/24'
   },
   exampleText: exampleText
-}, {
+},
+{
   typeSize: "Goose",
   typeSettings: {
     g3: "20/20",
@@ -32,7 +35,8 @@ var birdParameters = [{
     g1: '18/22'
   },
   exampleText: exampleText
-}, {
+},
+{
   typeSize: "Skylark",
   typeSettings: {
     g3: "15/20",
@@ -40,7 +44,8 @@ var birdParameters = [{
     g1: '16/22'
   },
   exampleText: exampleText
-}, {
+},
+{
   typeSize: "Canary",
   typeSettings: {
     g3: "15/20",
@@ -48,7 +53,8 @@ var birdParameters = [{
     g1: '16/22'
   },
   exampleText: exampleText
-}, {
+},
+{
   typeSize: "Bullfinch",
   typeSettings: {
     g3: "13/16",
@@ -56,7 +62,8 @@ var birdParameters = [{
     g1: '13/16'
   },
   exampleText: exampleText
-}, {
+},
+{
   typeSize: "Robin",
   typeSettings: {
     g3: "13/16",
