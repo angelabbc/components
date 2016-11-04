@@ -107,14 +107,20 @@ td{
 
 
 .swatch{
-  width:50px;
-  border-radius:50px;
+  width:80px;
+  border-radius:80px;
   background-color:$storm;
-  height:50px;
+  height:80px;
+  margin:auto;
 }
 
 .swatch-item{
   text-align:center;
+  padding: 24px 0 0 0;
+}
+
+.swatch-description{
+  padding:16px 0 0 0;
 }
 
 .browserSize{
