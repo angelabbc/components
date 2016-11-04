@@ -359,10 +359,15 @@ body {
   padding-right: 0;
   padding-left: 0;
   list-style: none;
-  text-align: left; }
+  text-align: left;
+  letter-spacing: -0.31em;
+  text-rendering: optimizespeed; }
   @media (min-width: 37.5em) {
     .gel-layout {
       margin-left: -16px; } }
+  .opera-only :-o-prefocus,
+  .gel-layout {
+    word-spacing: -0.43em; }
 
 /**
  * A single grid item
@@ -375,7 +380,10 @@ body {
   vertical-align: top;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-rendering: auto; }
   @media (min-width: 37.5em) {
     .gel-layout__item {
       padding-left: 16px; } }
