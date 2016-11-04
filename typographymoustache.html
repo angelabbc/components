@@ -4,7 +4,6 @@
 <head>
   <title>BBC iPlayer UX | Typography</title>
   <link rel="stylesheet" href="src/css/core.css" />
-
   <script id="bird-template" type="text/x-handlebars-template">
     <div class="typography-demo gel-layout gel-1/1">
       <div class="gel-layout__item gel-1/1 gel-3/12@m">
@@ -16,7 +15,15 @@
       <p class="demo-body ipl-{{toLowerCase typeSize}}-bold body-copy gel-layout__item gel-1/1 gel-9/12@m">{{exampleText}}</p>
     </div>
   </script>
-
+  <script id="table-row-template" type="text/x-handlebars-template">
+    <tr>
+      <td class="ipl-skylark-bold">{{typeSize}}</td>
+      <td class="ipl-canary">{{exampleUseCases}}</td>
+      <td class="ipl-canary">{{typeSettings.g1}}</td>
+      <td class="ipl-canary">{{typeSettings.g2}}</td>
+      <td class="ipl-canary">{{typeSettings.g3}}</td>
+    </tr>
+  </script>
 </head>
 
 <body>
@@ -36,25 +43,23 @@
       <p class="ipl-buzzard-bold title">Demo </p>
       <div class="title-pipe"></div>
     </div>
-  </div>
-
+    </div>
   <!--typo demo -->
   <div class="content content-typo gel-wrap">
-  </div>
-
+    </div>
+   <!--page title-->
   <!--page title-->
-
   <div class="gel-wrap">
     <div class="page-titles">
-      <p class="ipl-buzzard-bold title">Sizes </p>
+      <p class="ipl-buzzard-bold title">Sizes</p>
       <div class="title-pipe"></div>
     </div>
-  </div>
+   </div>
 
-  <div class="gel-wrap content content-table">
+  <div class="gel-wrap">
     <div class="gel-layout gel-1/1">
       <div class="type-sizes gel-layout__item gel-1/1">
-        <table>
+        <table class="content content-table">
           <tr class="table-header">
             <th class=" ipl-goose-bold"></th>
             <th class=" ipl-goose-bold">Used for</th>
@@ -62,69 +67,16 @@
             <th class=" ipl-goose-bold">G2</th>
             <th class=" ipl-goose-bold">G3 &amp;G4</th>
           </tr>
-          <tr>
-            <td class="ipl-skylark-bold">Eagle</td>
-            <td class="ipl-canary">Full page titles </td>
-            <td class="ipl-canary">32/36</td>
-            <td class="ipl-canary">36/42</td>
-            <td class="ipl-canary">46/54</td>
-          </tr>
-          <tr>
-            <td class="ipl-skylark-bold">Buzzard</td>
-            <td class="ipl-canary">Titles</td>
-            <td class="ipl-canary">24/24</td>
-            <td class="ipl-canary">24/28</td>
-            <td class="ipl-canary">32/32</td>
-          </tr>
-          <tr>
-            <td class="ipl-skylark-bold">Heron</td>
-            <td class="ipl-canary">Titles</td>
-            <td class="ipl-canary">20/24</td>
-            <td class="ipl-canary">20/24</td>
-            <td class="ipl-canary">24/28</td>
-          </tr>
-          <tr>
-            <td class="ipl-skylark-bold">Goose</td>
-            <td class="ipl-canary">Titles</td>
-            <td class="ipl-canary">18/22</td>
-            <td class="ipl-canary">20/24</td>
-            <td class="ipl-canary">20/20</td>
-          </tr>
-          <tr>
-            <td class="ipl-skylark-bold">Skylark</td>
-            <td class="ipl-canary">body copy</td>
-            <td class="ipl-canary">15/20</td>
-            <td class="ipl-canary">16/22</td>
-            <td class="ipl-canary">16/22</td>
-          </tr>
-          <tr>
-            <td class="ipl-skylark-bold">Canary</td>
-            <td class="ipl-canary">body copy</td>
-            <td class="ipl-canary">15/18</td>
-            <td class="ipl-canary">16/20</td>
-            <td class="ipl-canary">14/20</td>
-          </tr>
-          <tr>
-            <td class="ipl-skylark-bold">Bullfinch</td>
-            <td class="ipl-canary">buttons</td>
-            <td class="ipl-canary">13/16</td>
-            <td class="ipl-canary">14/18</td>
-            <td class="ipl-canary">13/16</td>
-          </tr>
-          <tr>
-            <td class="ipl-skylark-bold">Robin</td>
-            <td class="ipl-canary">labels</td>
-            <td class="ipl-canary">1/16</td>
-            <td class="ipl-canary">11/16</td>
-            <td class="ipl-canary">11/16</td>
-          </tr>
         </table>
       </div>
     </div>
   </div>
+
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <script src="bower_components/handlebars/handlebars.min.js"></script>
+    <script src="src/js/typography.js"></script>
   <script>
+
     Handlebars.registerHelper('toLowerCase', function(str) {
       return str.toLowerCase();
     });
@@ -141,79 +93,31 @@
     }
 
     function renderAllTheBirds() {
-      var exampleText = "The quick brown fox jumps over the lazy dog.";
-
-      var birdParameters = [{
-        typeSize: "Eagle",
-        typeSettings: {
-          g3: "46/54",
-          g2: '36/42',
-          g1: '32/36'
-        },
-        exampleText: exampleText
-      }, {
-        typeSize: "Buzzard",
-        typeSettings: {
-          g3: "32/32",
-          g2: '24/28',
-          g1: '24/24'
-        },
-        exampleText: exampleText
-      }, {
-        typeSize: "Heron",
-        typeSettings: {
-          g3: "24/28",
-          g2: '20/24',
-          g1: '20/24'
-        },
-        exampleText: exampleText
-      }, {
-        typeSize: "Goose",
-        typeSettings: {
-          g3: "20/20",
-          g2: '20/24',
-          g1: '18/22'
-        },
-        exampleText: exampleText
-      }, {
-        typeSize: "Skylark",
-        typeSettings: {
-          g3: "15/20",
-          g2: '16/22',
-          g1: '16/22'
-        },
-        exampleText: exampleText
-      }, {
-        typeSize: "Canary",
-        typeSettings: {
-          g3: "15/20",
-          g2: '16/22',
-          g1: '16/22'
-        },
-        exampleText: exampleText
-      }, {
-        typeSize: "Bullfinch",
-        typeSettings: {
-          g3: "13/16",
-          g2: '14/18',
-          g1: '13/16'
-        },
-        exampleText: exampleText
-      }, {
-        typeSize: "Robin",
-        typeSettings: {
-          g3: "13/16",
-          g2: '11/16',
-          g1: '13/16'
-        },
-        exampleText: exampleText
-      }];
-
       birdParameters.forEach(renderBird);
     }
 
     renderAllTheBirds();
   </script>
+
+  <script>
+    function renderTableRow(rowParameters) {
+      // get template html
+      var rowTemplate = $("#table-row-template").html();
+      // compile template htmls
+      var buildRow = Handlebars.compile(rowTemplate);
+      // build HTML with data
+      var builtRowHTML = buildRow(rowParameters);
+      // render html with data to page
+      $('.content-table').append(builtRowHTML);
+    }
+
+    function renderTable() {
+      birdParameters.forEach(renderTableRow);
+    }
+    renderTable();
+
+  </script>
+
 </body>
 
 </html>
