@@ -116,3 +116,44 @@ td{
 .swatch-item{
   text-align:center;
 }
+
+.browserSize{
+  color: $stone;
+  text-align: right;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width:100%;
+
+  &--g2,
+  &--g3,
+  &--g4 {
+    display: none;
+  }
+
+  &--g1 {
+    @include mq($from: gel-bp-s) {
+      display: none;
+    }
+  }
+
+  &--g2 {
+    @include mq($from: gel-bp-s, $until: gel-bp-m) {
+      display: block;
+    }
+  }
+
+  &--g3 {
+    @include mq($from: gel-bp-m, $until: gel-bp-xl) {
+      display: block;
+    }
+  }
+
+  &--g4 {
+    @include mq($from: gel-bp-xl) {
+      display: block;
+    }
+  }
+
+
+}

@@ -1627,6 +1627,28 @@ td {
 .swatch-item {
   text-align: center; }
 
+.browserSize {
+  color: #444;
+  text-align: right;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 100%; }
+  .browserSize--g2, .browserSize--g3, .browserSize--g4 {
+    display: none; }
+  @media (min-width: 25em) {
+    .browserSize--g1 {
+      display: none; } }
+  @media (min-width: 25em) and (max-width: 37.49em) {
+    .browserSize--g2 {
+      display: block; } }
+  @media (min-width: 37.5em) and (max-width: 62.99em) {
+    .browserSize--g3 {
+      display: block; } }
+  @media (min-width: 63em) {
+    .browserSize--g4 {
+      display: block; } }
+
 body {
   background-color: #252525;
   -webkit-font-smoothing: antialiased;
