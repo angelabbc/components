@@ -1629,16 +1629,19 @@ td {
 .swatch {
   width: 80px;
   border-radius: 80px;
-  background-color: #333;
   height: 80px;
-  margin: auto; }
+  margin: auto;
+  border: 1px solid #333; }
 
 .swatch-item {
   text-align: center;
-  padding: 24px 0 0 0; }
+  padding: 24px 0; }
 
 .swatch-description {
   padding: 16px 0 0 0; }
+
+.swatch-description > p.title {
+  padding-bottom: 8px; }
 
 .browserSize {
   color: #444;
