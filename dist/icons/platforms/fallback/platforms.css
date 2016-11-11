@@ -1,0 +1,64 @@
+
+.gel-icon-games-console {
+  background-image: url(platforms.png);
+  background-position: 0px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-mobile-smart {
+  background-image: url(platforms.png);
+  background-position: -32px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-mobile {
+  background-image: url(platforms.png);
+  background-position: -64px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-pc {
+  background-image: url(platforms.png);
+  background-position: -96px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-radio {
+  background-image: url(platforms.png);
+  background-position: -128px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-set-top-box {
+  background-image: url(platforms.png);
+  background-position: -160px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-smart-watch {
+  background-image: url(platforms.png);
+  background-position: -192px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-tablet {
+  background-image: url(platforms.png);
+  background-position: -224px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-tv {
+  background-image: url(platforms.png);
+  background-position: -256px 0px;
+  width: 32px;
+  height: 32px;
+}
+

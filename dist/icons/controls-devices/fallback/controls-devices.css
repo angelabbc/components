@@ -1,0 +1,71 @@
+
+.gel-icon-exit {
+  background-image: url(controls-devices.png);
+  background-position: 0px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-keyboard {
+  background-image: url(controls-devices.png);
+  background-position: -32px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-microphone {
+  background-image: url(controls-devices.png);
+  background-position: -64px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-mouse {
+  background-image: url(controls-devices.png);
+  background-position: -96px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-movement-off {
+  background-image: url(controls-devices.png);
+  background-position: -128px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-movement-on {
+  background-image: url(controls-devices.png);
+  background-position: -160px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-rotate-device-to-play-game-l-to-p {
+  background-image: url(controls-devices.png);
+  background-position: -192px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-rotate-device-to-play-game-p-to-l {
+  background-image: url(controls-devices.png);
+  background-position: -224px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-switch-controlled {
+  background-image: url(controls-devices.png);
+  background-position: -256px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-webcam {
+  background-image: url(controls-devices.png);
+  background-position: -288px 0px;
+  width: 32px;
+  height: 32px;
+}
+

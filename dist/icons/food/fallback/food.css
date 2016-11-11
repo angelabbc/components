@@ -1,0 +1,127 @@
+
+.gel-icon-baking {
+  background-image: url(food.png);
+  background-position: 0px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-biscuits-sweets-treats {
+  background-image: url(food.png);
+  background-position: -32px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-chefs-tips {
+  background-image: url(food.png);
+  background-position: -64px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-cooking-ingredients {
+  background-image: url(food.png);
+  background-position: -96px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-dairy {
+  background-image: url(food.png);
+  background-position: -128px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-drinks {
+  background-image: url(food.png);
+  background-position: -160px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-fast-food-1 {
+  background-image: url(food.png);
+  background-position: -192px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-fast-food-2 {
+  background-image: url(food.png);
+  background-position: -224px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-fish-chicken-meat {
+  background-image: url(food.png);
+  background-position: -256px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-fruit-veg {
+  background-image: url(food.png);
+  background-position: -288px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-in-season {
+  background-image: url(food.png);
+  background-position: -320px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-recommended-wine {
+  background-image: url(food.png);
+  background-position: -352px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-required-techniques {
+  background-image: url(food.png);
+  background-position: 0px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-techniques-skill-rating {
+  background-image: url(food.png);
+  background-position: -32px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-tins-jars-packets {
+  background-image: url(food.png);
+  background-position: -64px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-vegetarian-a {
+  background-image: url(food.png);
+  background-position: -96px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-vegetarian-b {
+  background-image: url(food.png);
+  background-position: -128px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-western-food {
+  background-image: url(food.png);
+  background-position: -160px -32px;
+  width: 32px;
+  height: 32px;
+}
+

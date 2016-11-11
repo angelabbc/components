@@ -1,0 +1,407 @@
+
+.gel-icon-alarm {
+  background-image: url(core.png);
+  background-position: 0px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-alert {
+  background-image: url(core.png);
+  background-position: -32px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-back-to-start {
+  background-image: url(core.png);
+  background-position: -64px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-calendar {
+  background-image: url(core.png);
+  background-position: -96px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-chapters {
+  background-image: url(core.png);
+  background-position: -128px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-countdown {
+  background-image: url(core.png);
+  background-position: -160px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-degraded {
+  background-image: url(core.png);
+  background-position: -192px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-delete {
+  background-image: url(core.png);
+  background-position: -224px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-down {
+  background-image: url(core.png);
+  background-position: -256px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-download {
+  background-image: url(core.png);
+  background-position: -288px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-duplicate {
+  background-image: url(core.png);
+  background-position: -320px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-duration {
+  background-image: url(core.png);
+  background-position: -352px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-edit-draft {
+  background-image: url(core.png);
+  background-position: 0px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-email {
+  background-image: url(core.png);
+  background-position: -32px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-embed-off-grid {
+  background-image: url(core.png);
+  background-position: -64px -32px;
+  width: 36px;
+  height: 32px;
+}
+
+.gel-icon-embed-on-grid {
+  background-image: url(core.png);
+  background-position: -100px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-embed {
+  background-image: url(core.png);
+  background-position: -132px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-expires {
+  background-image: url(core.png);
+  background-position: -164px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-export {
+  background-image: url(core.png);
+  background-position: -196px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-external-link {
+  background-image: url(core.png);
+  background-position: -228px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-filter {
+  background-image: url(core.png);
+  background-position: -260px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-grid {
+  background-image: url(core.png);
+  background-position: -292px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-help {
+  background-image: url(core.png);
+  background-position: -324px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-home {
+  background-image: url(core.png);
+  background-position: -356px -32px;
+  width: 32px;
+  height: 31px;
+}
+
+.gel-icon-import {
+  background-image: url(core.png);
+  background-position: -356px -63px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-info {
+  background-image: url(core.png);
+  background-position: 0px -95px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-label {
+  background-image: url(core.png);
+  background-position: -32px -95px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-launch-application {
+  background-image: url(core.png);
+  background-position: -64px -95px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-link {
+  background-image: url(core.png);
+  background-position: -96px -95px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-list-thumb {
+  background-image: url(core.png);
+  background-position: -128px -95px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-list {
+  background-image: url(core.png);
+  background-position: -160px -95px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-loading {
+  background-image: url(core.png);
+  background-position: -192px -95px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-location {
+  background-image: url(core.png);
+  background-position: -224px -95px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-lock {
+  background-image: url(core.png);
+  background-position: -256px -95px;
+  width: 32px;
+  height: 31px;
+}
+
+.gel-icon-more-horizontal {
+  background-image: url(core.png);
+  background-position: -288px -95px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-more-vertical {
+  background-image: url(core.png);
+  background-position: -320px -95px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-new {
+  background-image: url(core.png);
+  background-position: 0px -127px;
+  width: 56px;
+  height: 32px;
+}
+
+.gel-icon-next {
+  background-image: url(core.png);
+  background-position: -56px -127px;
+  width: 31px;
+  height: 32px;
+}
+
+.gel-icon-no {
+  background-image: url(core.png);
+  background-position: -87px -127px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-previous {
+  background-image: url(core.png);
+  background-position: -119px -127px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-print {
+  background-image: url(core.png);
+  background-position: -151px -127px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-quote {
+  background-image: url(core.png);
+  background-position: -183px -127px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-re-order {
+  background-image: url(core.png);
+  background-position: -215px -127px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-refresh {
+  background-image: url(core.png);
+  background-position: -247px -127px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-save {
+  background-image: url(core.png);
+  background-position: -279px -127px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-search {
+  background-image: url(core.png);
+  background-position: -311px -127px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-settings {
+  background-image: url(core.png);
+  background-position: -343px -127px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-to-bottom {
+  background-image: url(core.png);
+  background-position: 0px -159px;
+  width: 32px;
+  height: 31px;
+}
+
+.gel-icon-to-top {
+  background-image: url(core.png);
+  background-position: -32px -159px;
+  width: 32px;
+  height: 31px;
+}
+
+.gel-icon-toggle-horizontal {
+  background-image: url(core.png);
+  background-position: -64px -159px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-unlink {
+  background-image: url(core.png);
+  background-position: -96px -159px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-unlock {
+  background-image: url(core.png);
+  background-position: -128px -159px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-up {
+  background-image: url(core.png);
+  background-position: -160px -159px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-upload {
+  background-image: url(core.png);
+  background-position: -192px -159px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-vocab {
+  background-image: url(core.png);
+  background-position: -224px -159px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-yes {
+  background-image: url(core.png);
+  background-position: -256px -159px;
+  width: 31px;
+  height: 32px;
+}
+
+.gel-icon-zoom-in {
+  background-image: url(core.png);
+  background-position: -287px -159px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-zoom-out {
+  background-image: url(core.png);
+  background-position: -319px -159px;
+  width: 32px;
+  height: 32px;
+}
+

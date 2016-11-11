@@ -1665,6 +1665,9 @@ td {
     .browserSize--g4 {
       display: block; } }
 
+.gel-icon__demo {
+  text-align: center; }
+
 body {
   background-color: #252525;
   -webkit-font-smoothing: antialiased;

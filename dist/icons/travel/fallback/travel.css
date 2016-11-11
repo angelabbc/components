@@ -1,0 +1,127 @@
+
+.gel-icon-a-roads {
+  background-image: url(travel.png);
+  background-position: 0px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-accident-or-general-incident {
+  background-image: url(travel.png);
+  background-position: -32px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-bicycle {
+  background-image: url(travel.png);
+  background-position: -64px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-bus {
+  background-image: url(travel.png);
+  background-position: -96px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-car {
+  background-image: url(travel.png);
+  background-position: -128px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-commercial-flight {
+  background-image: url(travel.png);
+  background-position: -160px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-congestion-traffic {
+  background-image: url(travel.png);
+  background-position: -192px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-disruption {
+  background-image: url(travel.png);
+  background-position: -224px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-ferry {
+  background-image: url(travel.png);
+  background-position: -256px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-fuel-and-petrol {
+  background-image: url(travel.png);
+  background-position: -288px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-motorcycle {
+  background-image: url(travel.png);
+  background-position: -320px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-road-works {
+  background-image: url(travel.png);
+  background-position: -352px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-traffic-cameras {
+  background-image: url(travel.png);
+  background-position: 0px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-train {
+  background-image: url(travel.png);
+  background-position: -32px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-tram-and-metro {
+  background-image: url(travel.png);
+  background-position: -64px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-tube-a {
+  background-image: url(travel.png);
+  background-position: -96px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-tube-b {
+  background-image: url(travel.png);
+  background-position: -128px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-walking {
+  background-image: url(travel.png);
+  background-position: -160px -32px;
+  width: 32px;
+  height: 32px;
+}
+

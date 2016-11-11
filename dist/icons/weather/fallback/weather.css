@@ -1,0 +1,295 @@
+
+.gel-icon-clear-sky-night {
+  background-image: url(weather.png);
+  background-position: 0px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-coast-sea {
+  background-image: url(weather.png);
+  background-position: -32px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-drizzle {
+  background-image: url(weather.png);
+  background-position: -64px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-flood {
+  background-image: url(weather.png);
+  background-position: -96px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-fob-b {
+  background-image: url(weather.png);
+  background-position: -128px 0px;
+  width: 62px;
+  height: 32px;
+}
+
+.gel-icon-fog-a {
+  background-image: url(weather.png);
+  background-position: -190px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-grey-cloud {
+  background-image: url(weather.png);
+  background-position: -222px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-hail-shower-night {
+  background-image: url(weather.png);
+  background-position: -254px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-hail-shower {
+  background-image: url(weather.png);
+  background-position: -286px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-hail {
+  background-image: url(weather.png);
+  background-position: -318px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-hazy {
+  background-image: url(weather.png);
+  background-position: -350px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-heavy-rain-shower-night {
+  background-image: url(weather.png);
+  background-position: 0px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-heavy-rain-shower {
+  background-image: url(weather.png);
+  background-position: -32px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-heavy-rain {
+  background-image: url(weather.png);
+  background-position: -64px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-heavy-snow-shower-night {
+  background-image: url(weather.png);
+  background-position: -96px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-heavy-snow-shower {
+  background-image: url(weather.png);
+  background-position: -128px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-heavy-snow {
+  background-image: url(weather.png);
+  background-position: -160px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-ice {
+  background-image: url(weather.png);
+  background-position: -192px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-light-rain-shower-night {
+  background-image: url(weather.png);
+  background-position: -224px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-light-rain-shower {
+  background-image: url(weather.png);
+  background-position: -256px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-light-rain {
+  background-image: url(weather.png);
+  background-position: -288px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-light-snow-shower-night {
+  background-image: url(weather.png);
+  background-position: -320px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-light-snow-shower {
+  background-image: url(weather.png);
+  background-position: -352px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-light-snow {
+  background-image: url(weather.png);
+  background-position: 0px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-mist {
+  background-image: url(weather.png);
+  background-position: -32px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-partly-cloudly-night {
+  background-image: url(weather.png);
+  background-position: -64px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-rain {
+  background-image: url(weather.png);
+  background-position: -96px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-sandstorm {
+  background-image: url(weather.png);
+  background-position: -128px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-sleet-shower-night {
+  background-image: url(weather.png);
+  background-position: -160px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-sleet-shower {
+  background-image: url(weather.png);
+  background-position: -192px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-sleet {
+  background-image: url(weather.png);
+  background-position: -224px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-snow {
+  background-image: url(weather.png);
+  background-position: -256px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-sunny-intervals {
+  background-image: url(weather.png);
+  background-position: -288px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-sunny {
+  background-image: url(weather.png);
+  background-position: -320px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-thunder-storm {
+  background-image: url(weather.png);
+  background-position: -352px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-thundery-shower-night {
+  background-image: url(weather.png);
+  background-position: 0px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-thundery-shower {
+  background-image: url(weather.png);
+  background-position: -32px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-tropical-storm {
+  background-image: url(weather.png);
+  background-position: -64px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-white-cloud {
+  background-image: url(weather.png);
+  background-position: -96px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-wind-gust-info-a {
+  background-image: url(weather.png);
+  background-position: -128px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-wind-gust-info-b {
+  background-image: url(weather.png);
+  background-position: -160px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-wind {
+  background-image: url(weather.png);
+  background-position: -192px -96px;
+  width: 32px;
+  height: 32px;
+}
+

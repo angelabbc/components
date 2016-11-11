@@ -1,0 +1,477 @@
+
+.gel-icon-15-mins {
+  background-image: url(childrens.png);
+  background-position: 0px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-30-mins {
+  background-image: url(childrens.png);
+  background-position: -32px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-5-mins {
+  background-image: url(childrens.png);
+  background-position: -64px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-60-mins {
+  background-image: url(childrens.png);
+  background-position: -96px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-activity-themes {
+  background-image: url(childrens.png);
+  background-position: -128px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-animals-and-nature {
+  background-image: url(childrens.png);
+  background-position: -160px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-apps {
+  background-image: url(childrens.png);
+  background-position: -192px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-babies-and-toddlers {
+  background-image: url(childrens.png);
+  background-position: -224px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-baby {
+  background-image: url(childrens.png);
+  background-position: -256px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-be-on-a-show {
+  background-image: url(childrens.png);
+  background-position: -288px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-behind-the-scenes {
+  background-image: url(childrens.png);
+  background-position: -320px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-being-creative {
+  background-image: url(childrens.png);
+  background-position: -352px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-birthdays-and-parties {
+  background-image: url(childrens.png);
+  background-position: 0px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-cbbc-songs {
+  background-image: url(childrens.png);
+  background-position: -32px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-cbeebies-information {
+  background-image: url(childrens.png);
+  background-position: -64px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-character-profiles {
+  background-image: url(childrens.png);
+  background-position: -96px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-chats {
+  background-image: url(childrens.png);
+  background-position: -128px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-communication {
+  background-image: url(childrens.png);
+  background-position: -160px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-cooking {
+  background-image: url(childrens.png);
+  background-position: -192px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-craft-and-cooking {
+  background-image: url(childrens.png);
+  background-position: -224px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-dance-moves {
+  background-image: url(childrens.png);
+  background-position: -256px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-dress-up {
+  background-image: url(childrens.png);
+  background-position: -288px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-emotions-and-behaviour {
+  background-image: url(childrens.png);
+  background-position: -320px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-entertainment {
+  background-image: url(childrens.png);
+  background-position: -352px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-events {
+  background-image: url(childrens.png);
+  background-position: 0px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-family-activities {
+  background-image: url(childrens.png);
+  background-position: -32px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-family-learning-and-education {
+  background-image: url(childrens.png);
+  background-position: -64px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-fan-clubs {
+  background-image: url(childrens.png);
+  background-position: -96px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-feeling-good {
+  background-image: url(childrens.png);
+  background-position: -128px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-festivals-and-celebrations {
+  background-image: url(childrens.png);
+  background-position: -160px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-funny {
+  background-image: url(childrens.png);
+  background-position: -192px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-game-control {
+  background-image: url(childrens.png);
+  background-position: -224px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-how-to {
+  background-image: url(childrens.png);
+  background-position: -256px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-incredible-world {
+  background-image: url(childrens.png);
+  background-position: -288px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-interviews {
+  background-image: url(childrens.png);
+  background-position: -320px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-just-for-fun {
+  background-image: url(childrens.png);
+  background-position: -352px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-learning-areas {
+  background-image: url(childrens.png);
+  background-position: 0px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-make-a-picture {
+  background-image: url(childrens.png);
+  background-position: -32px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-maths-and-puzzles {
+  background-image: url(childrens.png);
+  background-position: -64px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-music-and-art {
+  background-image: url(childrens.png);
+  background-position: -96px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-music-and-dance {
+  background-image: url(childrens.png);
+  background-position: -128px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-news {
+  background-image: url(childrens.png);
+  background-position: -160px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-parenting-help {
+  background-image: url(childrens.png);
+  background-position: -192px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-phonics {
+  background-image: url(childrens.png);
+  background-position: -224px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-physical-development {
+  background-image: url(childrens.png);
+  background-position: -256px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-platform {
+  background-image: url(childrens.png);
+  background-position: -288px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-pop-songs {
+  background-image: url(childrens.png);
+  background-position: -320px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-pre-school {
+  background-image: url(childrens.png);
+  background-position: -352px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-printable {
+  background-image: url(childrens.png);
+  background-position: 0px -128px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-puzzles {
+  background-image: url(childrens.png);
+  background-position: -32px -128px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-quick-play {
+  background-image: url(childrens.png);
+  background-position: -64px -128px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-quiz {
+  background-image: url(childrens.png);
+  background-position: -96px -128px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-reading-and-writing {
+  background-image: url(childrens.png);
+  background-position: -128px -128px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-school-age {
+  background-image: url(childrens.png);
+  background-position: -160px -128px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-science-experiments {
+  background-image: url(childrens.png);
+  background-position: -192px -128px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-send-ins {
+  background-image: url(childrens.png);
+  background-position: -224px -128px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-shows-information {
+  background-image: url(childrens.png);
+  background-position: -256px -128px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-sneak-peeks {
+  background-image: url(childrens.png);
+  background-position: -288px -128px;
+  width: 38px;
+  height: 32px;
+}
+
+.gel-icon-special-needs {
+  background-image: url(childrens.png);
+  background-position: -326px -128px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-sport {
+  background-image: url(childrens.png);
+  background-position: -358px -128px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-strategy {
+  background-image: url(childrens.png);
+  background-position: 0px -160px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-switch {
+  background-image: url(childrens.png);
+  background-position: -32px -160px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-target {
+  background-image: url(childrens.png);
+  background-position: -64px -160px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-time-it-will-take {
+  background-image: url(childrens.png);
+  background-position: -96px -160px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-understanding-the-world {
+  background-image: url(childrens.png);
+  background-position: -128px -160px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-videos {
+  background-image: url(childrens.png);
+  background-position: -160px -160px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-votes {
+  background-image: url(childrens.png);
+  background-position: -192px -160px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-webisodes-online-episodes {
+  background-image: url(childrens.png);
+  background-position: -224px -160px;
+  width: 32px;
+  height: 32px;
+}
+

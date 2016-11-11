@@ -1,0 +1,288 @@
+
+.gel-icon-3d {
+  background-image: url(audio-visual.png);
+  background-position: 0px 0px;
+  width: 48px;
+  height: 32px;
+}
+
+.gel-icon-audio-description {
+  background-image: url(audio-visual.png);
+  background-position: -48px 0px;
+  width: 48px;
+  height: 32px;
+}
+
+.gel-icon-closed-caption {
+  background-image: url(audio-visual.png);
+  background-position: -96px 0px;
+  width: 48px;
+  height: 32px;
+}
+
+.gel-icon-continous-play {
+  background-image: url(audio-visual.png);
+  background-position: -144px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-exit-fullscreen {
+  background-image: url(audio-visual.png);
+  background-position: -176px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-expand {
+  background-image: url(audio-visual.png);
+  background-position: -208px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-forward {
+  background-image: url(audio-visual.png);
+  background-position: -240px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-fullscreen {
+  background-image: url(audio-visual.png);
+  background-position: -272px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-fx-off {
+  background-image: url(audio-visual.png);
+  background-position: -304px 0px;
+  width: 44px;
+  height: 32px;
+}
+
+.gel-icon-fx {
+  background-image: url(audio-visual.png);
+  background-position: -348px 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-hd {
+  background-image: url(audio-visual.png);
+  background-position: 0px -32px;
+  width: 48px;
+  height: 32px;
+}
+
+.gel-icon-iplayer-radio {
+  background-image: url(audio-visual.png);
+  background-position: -48px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-iplayer {
+  background-image: url(audio-visual.png);
+  background-position: -80px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-last-watched {
+  background-image: url(audio-visual.png);
+  background-position: -112px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-listen {
+  background-image: url(audio-visual.png);
+  background-position: -144px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-live-pulse {
+  background-image: url(audio-visual.png);
+  background-position: -176px -32px;
+  width: 60px;
+  height: 32px;
+}
+
+.gel-icon-live-restart {
+  background-image: url(audio-visual.png);
+  background-position: -236px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-live {
+  background-image: url(audio-visual.png);
+  background-position: -268px -32px;
+  width: 56px;
+  height: 32px;
+}
+
+.gel-icon-music-off {
+  background-image: url(audio-visual.png);
+  background-position: -324px -32px;
+  width: 44px;
+  height: 32px;
+}
+
+.gel-icon-music {
+  background-image: url(audio-visual.png);
+  background-position: -368px -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-now-watching {
+  background-image: url(audio-visual.png);
+  background-position: 0px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-parental {
+  background-image: url(audio-visual.png);
+  background-position: -32px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-pause {
+  background-image: url(audio-visual.png);
+  background-position: -64px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-play {
+  background-image: url(audio-visual.png);
+  background-position: -96px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-pop-out {
+  background-image: url(audio-visual.png);
+  background-position: -128px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-premier {
+  background-image: url(audio-visual.png);
+  background-position: -160px -64px;
+  width: 121px;
+  height: 32px;
+}
+
+.gel-icon-preview {
+  background-image: url(audio-visual.png);
+  background-position: -281px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-recent-activity {
+  background-image: url(audio-visual.png);
+  background-position: -313px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-record {
+  background-image: url(audio-visual.png);
+  background-position: -345px -64px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-replay {
+  background-image: url(audio-visual.png);
+  background-position: 0px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-rewind {
+  background-image: url(audio-visual.png);
+  background-position: -32px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-sd {
+  background-image: url(audio-visual.png);
+  background-position: -64px -96px;
+  width: 48px;
+  height: 32px;
+}
+
+.gel-icon-series-catch-up {
+  background-image: url(audio-visual.png);
+  background-position: -112px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-series-stack {
+  background-image: url(audio-visual.png);
+  background-position: -144px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-shuffle {
+  background-image: url(audio-visual.png);
+  background-position: -176px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-sign-language-22 {
+  background-image: url(audio-visual.png);
+  background-position: -208px -96px;
+  width: 56px;
+  height: 32px;
+}
+
+.gel-icon-sign-language-35 {
+  background-image: url(audio-visual.png);
+  background-position: -264px -96px;
+  width: 48px;
+  height: 32px;
+}
+
+.gel-icon-sound-off {
+  background-image: url(audio-visual.png);
+  background-position: -312px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-subtitles {
+  background-image: url(audio-visual.png);
+  background-position: -344px -96px;
+  width: 32px;
+  height: 32px;
+}
+
+.gel-icon-volume {
+  background-image: url(audio-visual.png);
+  background-position: 0px -128px;
+  width: 58px;
+  height: 32px;
+}
+
+.gel-icon-widescreen {
+  background-image: url(audio-visual.png);
+  background-position: -58px -128px;
+  width: 48px;
+  height: 32px;
+}
+
