@@ -2,4 +2,17 @@
 
 .gel-icon__demo{
   text-align: center;
+  padding: 24px 0;
+
+& > svg{
+  width:48px;
+  height:48px;
+
+}
+}
+
+* {
+  -webkit-transform-origin-x: 0px;
+  -webkit-transform-origin-y: 0px;
+  -webkit-transform-origin-z: initial;
 }

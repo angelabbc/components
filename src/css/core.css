@@ -1666,7 +1666,11 @@ td {
       display: block; } }
 
 .gel-icon__demo {
-  text-align: center; }
+  text-align: center;
+  padding: 24px 0; }
+  .gel-icon__demo > svg {
+    width: 48px;
+    height: 48px; }
 
 body {
   background-color: #252525;
