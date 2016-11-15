@@ -15,14 +15,20 @@
       <p class="demo-body ipl-{{toLowerCase typeSize}} body-copy gel-layout__item gel-1/1 gel-9/12@m">{{exampleText}}</p>
     </div>
   </script>
-  <script id="table-row-template" type="text/x-handlebars-template">
-    <tr>
-      <td class="ipl-skylark-bold">{{typeSize}}</td>
-      <td class="ipl-canary">{{exampleUseCases}}</td>
-      <td class="ipl-canary">{{typeSettings.g1}}</td>
-      <td class="ipl-canary">{{typeSettings.g2}}</td>
-      <td class="ipl-canary">{{typeSettings.g3}}</td>
-    </tr>
+  <script id="typo-table-template" type="text/x-handlebars-template">
+    <table class="content content-table">
+      <tr class="table-header">
+        <th class=" ipl-goose-bold"></th>
+        <th class=" ipl-goose-bold">{{usedFor}}</th>
+        <th class=" ipl-goose-bold">G1</th>
+        <th class=" ipl-goose-bold">G2</th>
+        <th class=" ipl-goose-bold">G3 &amp;G4</th>
+      </tr>
+
+      {{#typography}}
+        {{>typoRow.hbs}}
+      {{/typography}}
+    </table>
   </script>
 </head>
 
@@ -66,16 +72,8 @@
 
   <div class="gel-wrap">
     <div class="gel-layout gel-1/1">
-      <div class="type-sizes gel-layout__item gel-1/1">
-        <table class="content content-table">
-          <tr class="table-header">
-            <th class=" ipl-goose-bold"></th>
-            <th class=" ipl-goose-bold">Used for</th>
-            <th class=" ipl-goose-bold">G1</th>
-            <th class=" ipl-goose-bold">G2</th>
-            <th class=" ipl-goose-bold">G3 &amp;G4</th>
-          </tr>
-        </table>
+      <div class="type-sizes gel-layout__item gel-1/1" id="typo-table">
+
       </div>
     </div>
   </div>
@@ -85,6 +83,8 @@
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <script src="bower_components/handlebars/handlebars.min.js"></script>
     <script src="src/js/typography.js"></script>
+    <script src="src/js/typoRow.js"></script>
+
   <script>
 
     Handlebars.registerHelper('toLowerCase', function(str) {
@@ -110,22 +110,11 @@
   </script>
 
   <script>
-    function renderTableRow(rowParameters) {
-      // get template html
-      var rowTemplate = $("#table-row-template").html();
-      // compile template htmls
-      var buildRow = Handlebars.compile(rowTemplate);
-      // build HTML with data
-      var builtRowHTML = buildRow(rowParameters);
-      // render html with data to page
-      $('.content-table').append(builtRowHTML);
-    }
+    var tableTemplate  = $('#typo-table-template').html();
 
-    function renderTable() {
-      birdParameters.forEach(renderTableRow);
-    }
-    renderTable();
+    var renderTable = Handlebars.compile(tableTemplate);
 
+    $('#typo-table').html(renderTable({ typography: birdParameters, usedFor: exampleText }));
   </script>
 
 </body>
