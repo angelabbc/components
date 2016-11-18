@@ -1,27 +1,71 @@
-.btn{
-min-width:100px;
-background-color:$storm;
-padding: 0 12px;
-height:40px;
-border:0;
-color: $platinum;
-vertical-align: middle;
-transition: color 0.4s ease 0s,background-color 0.4s ease 0s;
-cursor: pointer;
+.btn {
+    min-width: 100px;
+    background-color: $storm;
+    padding: 0 12px;
+    height: 40px;
+    border: 0;
+    color: $platinum;
+    vertical-align: middle;
+    transition: color 0.4s ease 0s,background-color 0.4s ease 0s;
+    cursor: pointer;
 
-&:hover,
-&:focus{
-  background-color: $magenta;
-  outline: 0;
+    &:focus,
+    &:hover {
+        background-color: $magenta;
+        outline: 0;
+    }
+
+    &--inverted{
+      background-color: $raspberry;
+      color: $platinum;
+
+      &:hover,
+      &:focus{
+        background-color: $stone;
+      }
+
+    }
 }
-}
 
+.lnk {
+    text-decoration: none;
+    color: $platinum;
+    transition: color 0.4s ease 0s,background-color 0.4s ease 0s;
+    cursor: pointer;
 
-.atom-item-title{
-  padding-top: 24px;
-}
+    &:hover {
+        color: $magenta;
 
-.atom-item-demo{
-  text-align: center;
-  padding: 32px 0px;
+        svg {
+            fill: $magenta;
+        }
+    }
+
+    &--bold {
+        font-weight: bold;
+    }
+
+    &--underline:hover {
+        padding-bottom: 3px;
+        border-bottom: 1px solid;
+    }
+
+    &--icon {
+        font-weight: bold;
+        display: table;
+        margin: auto;
+
+        a {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        svg {
+            fill: $silver;
+            padding-right: 8px;
+            transition: fill 0.4s ease 0s,background-color 0.4s ease 0s;
+            vertical-align: middle;
+            display: inline-block;
+        }
+    }
 }

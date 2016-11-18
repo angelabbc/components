@@ -1677,6 +1677,13 @@ td {
   -webkit-transform-origin-y: 0px;
   -webkit-transform-origin-z: initial; }
 
+.atom-item-title {
+  padding-top: 24px; }
+
+.atom-item-demo {
+  text-align: center;
+  padding: 32px 0px; }
+
 .btn {
   min-width: 100px;
   background-color: #333;
@@ -1687,16 +1694,42 @@ td {
   vertical-align: middle;
   transition: color 0.4s ease 0s,background-color 0.4s ease 0s;
   cursor: pointer; }
-  .btn:hover, .btn:focus {
+  .btn:focus, .btn:hover {
     background-color: #f54997;
     outline: 0; }
+  .btn--inverted {
+    background-color: #cf3e80;
+    color: #eee; }
+    .btn--inverted:hover, .btn--inverted:focus {
+      background-color: #444; }
 
-.atom-item-title {
-  padding-top: 24px; }
-
-.atom-item-demo {
-  text-align: center;
-  padding: 32px 0px; }
+.lnk {
+  text-decoration: none;
+  color: #eee;
+  transition: color 0.4s ease 0s,background-color 0.4s ease 0s;
+  cursor: pointer; }
+  .lnk:hover {
+    color: #f54997; }
+    .lnk:hover svg {
+      fill: #f54997; }
+  .lnk--bold {
+    font-weight: bold; }
+  .lnk--underline:hover {
+    padding-bottom: 3px;
+    border-bottom: 1px solid; }
+  .lnk--icon {
+    font-weight: bold;
+    display: table;
+    margin: auto; }
+    .lnk--icon a {
+      display: inline-block;
+      vertical-align: middle; }
+    .lnk--icon svg {
+      fill: #bbb;
+      padding-right: 8px;
+      transition: fill 0.4s ease 0s,background-color 0.4s ease 0s;
+      vertical-align: middle;
+      display: inline-block; }
 
 body {
   background-color: #252525;

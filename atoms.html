@@ -2,113 +2,205 @@
 <html>
 
 <head>
-  <title>BBC iPlayer UX | Atoms</title>
-  <link rel="stylesheet" href="src/css/core.css" />
+    <title>BBC iPlayer UX | Atoms</title>
+    <link rel="stylesheet" href="src/css/core.css" />
 
 </head>
 
 <body>
-  <div class="page-header">
+    <div class="page-header">
+        <div class="gel-wrap">
+            <div class="browserSize gel-layout">
+                <div class="gel-layout__item">
+                    <p class="ipl-goose-bold browserSize browserSize--g1">Breakpoint: G1</p>
+                    <p class="ipl-goose-bold browserSize browserSize--g2">Breakpoint: G2</p>
+                    <p class="ipl-goose-bold browserSize browserSize--g3">Breakpoint: G3</p>
+                    <p class="ipl-goose-bold browserSize browserSize--g4">Breakpoint: G4</p>
+                </div>
+            </div>
+
+            <div class="gel-layout">
+                <div class="gel-layout__item">
+                    <h1 class="ipl-eagle-bold title">Atoms</h1>
+                    <p class="ipl-skylark body-copy gel-8/12@m">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Integer viverra eros nibh,nec faucibus ligula mattis vitae. Etiam varius sit amet nisi et dictum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="gel-wrap">
-      <div class="browserSize gel-layout">
-        <div class="gel-layout__item">
-          <p class="ipl-goose-bold browserSize browserSize--g1">Breakpoint: G1</p>
-          <p class="ipl-goose-bold browserSize browserSize--g2">Breakpoint: G2</p>
-          <p class="ipl-goose-bold browserSize browserSize--g3">Breakpoint: G3</p>
-          <p class="ipl-goose-bold browserSize browserSize--g4">Breakpoint: G4</p>
+        <div class="page-titles">
+            <p class="ipl-buzzard-bold title">Buttons</p>
+            <div class="title-pipe"></div>
         </div>
-      </div>
-
-      <div class="gel-layout">
-        <div class="gel-layout__item">
-          <h1 class="ipl-eagle-bold title">Atoms</h1>
-          <p class="ipl-skylark body-copy gel-8/12@m">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Integer viverra eros nibh,nec faucibus ligula mattis vitae. Etiam varius sit amet nisi et dictum.</p>
-        </div>
-      </div>
     </div>
-  </div>
 
-
-  <div class="gel-wrap">
-    <div class="page-titles">
-      <p class="ipl-buzzard-bold title">Buttons</p>
-      <div class="title-pipe"></div>
-    </div>
-  </div>
-
-  <div class="gel-wrap">
-    <div class="gel-layout">
-      <div class="gel-layout__item gel-1/1 gel-6/12@m gel-4/12@l">
-        <div class="atom_item">
-          <div class="atom-item-demo">
-          <button class="btn">
+    <div class="gel-wrap">
+        <div class="gel-layout">
+            <div class="gel-layout__item gel-1/1 gel-6/12@m gel-4/12@l">
+                <div class="atom_item">
+                    <div class="atom-item-demo">
+                        <button class="btn">
+            <p class="ipl-bullfinch-bold">Button</p> </button>
+                        <div class="atom-item-title">
+                            <p class="ipl-skylark-bold title">
+                                Standard Button
+                            </p>
+                        </div>
+                        <div class="atom-item-description">
+                            <p class="ipl-canary body-copy">
+                                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gel-layout__item gel-1/1 gel-6/12@m gel-4/12@l">
+                <div class="atom_item">
+                    <div class="atom-item-demo">
+                        <button class="btn btn--inverted">
             <p class="ipl-bullfinch-bold">Button</p>
           </button>
-
-        <div class="atom-item-title">
-          <p class="ipl-skylark-bold title">
-            Standard Button
-          </p>
+                        <div class="atom-item-title">
+                            <p class="ipl-skylark-bold title">
+                                Inverted button
+                            </p>
+                        </div>
+                        <div class="atom-item-description">
+                            <p class="ipl-canary body-copy">
+                                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="atom-item-description">
-          <p class="ipl-canary body-copy">
-            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-          </p>
-        </div>
-        </div>
-        </div>
-      </div>
     </div>
-  </div>
 
-<div class="gel-wrap">
-  <div class="page-titles">
-    <p class="ipl-buzzard-bold title">Links</p>
-    <div class="title-pipe"></div>
-  </div>
-  </div>
+    <div class="gel-wrap">
+        <div class="page-titles">
+            <p class="ipl-buzzard-bold title">Links</p>
+            <div class="title-pipe"></div>
+        </div>
+    </div>
+
+    <div class="gel-wrap">
+        <div class="gel-layout">
+            <div class="gel-layout__item gel-1/1 gel-6/12@m gel-4/12@l">
+                <div class="atom_item">
+                    <div class="atom-item-demo">
+                        <a class="lnk ipl-skylark" href="#">This is a text link</a>
+                        <div class="atom-item-title">
+                            <p class="ipl-skylark-bold title">
+                                In-line link
+                            </p>
+                        </div>
+                        <div class="atom-item-description">
+                            <p class="ipl-canary body-copy">
+                                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gel-layout__item gel-1/1 gel-6/12@m gel-4/12@l">
+                <div class="atom_item">
+                    <div class="atom-item-demo">
+                        <a class="lnk lnk--bold ipl-skylark" href="#">This is a bold text link</a>
+                        <div class="atom-item-title">
+                            <p class="ipl-skylark-bold title">
+                                Bold text link
+                            </p>
+                        </div>
+                        <div class="atom-item-description">
+                            <p class="ipl-canary body-copy">
+                                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gel-layout__item gel-1/1 gel-6/12@m gel-4/12@l">
+                <div class="atom_item">
+                    <div class="atom-item-demo">
+                        <a class="lnk lnk--underline ipl-skylark" href="#">Underline text link</a>
+                        <div class="atom-item-title">
+                            <p class="ipl-skylark-bold title">
+                                Underline text link
+                            </p>
+                        </div>
+                        <div class="atom-item-description">
+                            <p class="ipl-canary body-copy">
+                                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gel-layout__item gel-1/1 gel-6/12@m gel-4/12@l">
+                <div class="atom_item">
+                    <div class="atom-item-demo">
+                        <div class="lnk lnk--icon ipl-bullfinch">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 32 32"><path d="M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zm2 25h-4V13h4v12zm0-14h-4V7h4v4z"/></svg><a>Find out more</a>
+                        </div>
+                        <div class="atom-item-title">
+                            <p class="ipl-skylark-bold title">
+                                Icon link
+                            </p>
+                        </div>
+                        <div class="atom-item-description">
+                            <p class="ipl-canary body-copy">
+                                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-  <script src="bower_components/handlebars/handlebars.min.js"></script>
-  <script src="src/js/colours.js"></script>
-  <script>
-    Handlebars.registerHelper('toLowerCase', function(str) {
-      return str.toLowerCase();
-    });
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="bower_components/handlebars/handlebars.min.js"></script>
+    <script src="src/js/colours.js"></script>
+    <script>
+        Handlebars.registerHelper('toLowerCase', function(str) {
+            return str.toLowerCase();
+        });
 
-    function renderPrimarySwatch(templateParameters) {
-      // get template html
-      var templateHTML = $("#colourSwatch-template").html();
-      // compile template htmls
-      var build = Handlebars.compile(templateHTML);
-      // build HTML with data
-      var builtHTML = build(templateParameters);
-      // render html with data to page
-      var $content = $('.primary-swatch-palette').append(builtHTML);
+        function renderPrimarySwatch(templateParameters) {
+            // get template html
+            var templateHTML = $("#colourSwatch-template").html();
+            // compile template htmls
+            var build = Handlebars.compile(templateHTML);
+            // build HTML with data
+            var builtHTML = build(templateParameters);
+            // render html with data to page
+            var $content = $('.primary-swatch-palette').append(builtHTML);
 
-    }
+        }
 
-    function renderSecondarySwatch(templateParameters) {
-      // get template html
-      var templateHTML = $("#colourSwatch-template").html();
-      // compile template htmls
-      var build = Handlebars.compile(templateHTML);
-      // build HTML with data
-      var builtHTML = build(templateParameters);
-      // render html with data to page
-      var $content = $('.secondary-swatch-palette').append(builtHTML);
+        function renderSecondarySwatch(templateParameters) {
+            // get template html
+            var templateHTML = $("#colourSwatch-template").html();
+            // compile template htmls
+            var build = Handlebars.compile(templateHTML);
+            // build HTML with data
+            var builtHTML = build(templateParameters);
+            // render html with data to page
+            var $content = $('.secondary-swatch-palette').append(builtHTML);
 
-    }
+        }
 
-    function renderAllSwatches() {
-      primaryColours.forEach(renderPrimarySwatch);
-      SecondaryColours.forEach(renderSecondarySwatch);
+        function renderAllSwatches() {
+            primaryColours.forEach(renderPrimarySwatch);
+            SecondaryColours.forEach(renderSecondarySwatch);
 
-    }
+        }
 
-    renderAllSwatches();
-  </script>
+        renderAllSwatches();
+    </script>
 
 </body>
 
