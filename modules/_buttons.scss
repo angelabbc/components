@@ -25,6 +25,30 @@
       }
 
     }
+
+    &--fullwidth{
+      width:100%;
+    }
+
+    &--relatedLinks{
+      background-color: transparent;
+      border-top: solid 1px $stone;
+      width: 100%;
+      text-align: left;
+
+      &:hover,
+      &:focus{
+        background-color: transparent;
+        color: $magenta;
+      }
+
+
+    }
+}
+
+.relatedLinks--outer{
+
+  border-left: solid 6px $magenta;
 }
 
 .lnk {

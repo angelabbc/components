@@ -1702,6 +1702,19 @@ td {
     color: #eee; }
     .btn--inverted:hover, .btn--inverted:focus {
       background-color: #444; }
+  .btn--fullwidth {
+    width: 100%; }
+  .btn--relatedLinks {
+    background-color: transparent;
+    border-top: solid 1px #444;
+    width: 100%;
+    text-align: left; }
+    .btn--relatedLinks:hover, .btn--relatedLinks:focus {
+      background-color: transparent;
+      color: #f54997; }
+
+.relatedLinks--outer {
+  border-left: solid 6px #f54997; }
 
 .lnk {
   text-decoration: none;
