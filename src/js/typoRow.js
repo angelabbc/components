@@ -6,7 +6,7 @@ Handlebars.partials['typoRow.hbs'] = template({"compiler":[7,">= 4.0.0"],"main":
   return "<tr>\n  <td class=\"ipl-skylark-bold\">"
     + alias4(((helper = (helper = helpers.typeSize || (depth0 != null ? depth0.typeSize : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"typeSize","hash":{},"data":data}) : helper)))
     + "</td>\n  <td class=\"ipl-canary\">"
-    + alias4(((helper = (helper = helpers.exampleUseCases || (depth0 != null ? depth0.exampleUseCases : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"exampleUseCases","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = helpers.usedFor || (depth0 != null ? depth0.usedFor : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"usedFor","hash":{},"data":data}) : helper)))
     + "</td>\n  <td class=\"ipl-canary\">"
     + alias4(alias5(((stack1 = (depth0 != null ? depth0.typeSettings : depth0)) != null ? stack1.g1 : stack1), depth0))
     + "</td>\n  <td class=\"ipl-canary\">"
