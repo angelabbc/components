@@ -1672,6 +1672,32 @@ td {
     width: 48px;
     height: 48px; }
 
+* {
+  -webkit-transform-origin-x: 0px;
+  -webkit-transform-origin-y: 0px;
+  -webkit-transform-origin-z: initial; }
+
+.btn {
+  min-width: 100px;
+  background-color: #333;
+  padding: 0 12px;
+  height: 40px;
+  border: 0;
+  color: #eee;
+  vertical-align: middle;
+  transition: color 0.4s ease 0s,background-color 0.4s ease 0s;
+  cursor: pointer; }
+  .btn:hover, .btn:focus {
+    background-color: #f54997;
+    outline: 0; }
+
+.atom-item-title {
+  padding-top: 24px; }
+
+.atom-item-demo {
+  text-align: center;
+  padding: 32px 0px; }
+
 body {
   background-color: #252525;
   -webkit-font-smoothing: antialiased;
