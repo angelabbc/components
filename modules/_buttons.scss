@@ -9,10 +9,15 @@
     transition: color 0.4s ease 0s,background-color 0.4s ease 0s;
     cursor: pointer;
 
+
     &:focus,
     &:hover {
         background-color: $magenta;
         outline: 0;
+
+        svg{
+          fill: $magenta;
+        }
     }
 
     &--inverted{
@@ -36,11 +41,23 @@
       width: 100%;
       text-align: left;
 
+      @include mq($from: gel-bp-s, $until: gel-bp-m){
+        padding-right: 0;
+      }
+
+      svg{
+        fill: $silver;
+        transition: fill 0.4s ease 0s,background-color 0.4s ease 0s;
+        vertical-align: middle;
+        display: inline-block;
+      }
+
       &:hover,
       &:focus{
         background-color: transparent;
         color: $magenta;
       }
+
 
 
     }
@@ -92,4 +109,12 @@
             display: inline-block;
         }
     }
+}
+
+.leftBlock{
+  float:left;
+}
+
+.rightBlock{
+  float: right;
 }

@@ -1697,6 +1697,8 @@ td {
   .btn:focus, .btn:hover {
     background-color: #f54997;
     outline: 0; }
+    .btn:focus svg, .btn:hover svg {
+      fill: #f54997; }
   .btn--inverted {
     background-color: #cf3e80;
     color: #eee; }
@@ -1709,6 +1711,14 @@ td {
     border-top: solid 1px #444;
     width: 100%;
     text-align: left; }
+    @media (min-width: 25em) and (max-width: 37.49em) {
+      .btn--relatedLinks {
+        padding-right: 0; } }
+    .btn--relatedLinks svg {
+      fill: #bbb;
+      transition: fill 0.4s ease 0s,background-color 0.4s ease 0s;
+      vertical-align: middle;
+      display: inline-block; }
     .btn--relatedLinks:hover, .btn--relatedLinks:focus {
       background-color: transparent;
       color: #f54997; }
@@ -1743,6 +1753,12 @@ td {
       transition: fill 0.4s ease 0s,background-color 0.4s ease 0s;
       vertical-align: middle;
       display: inline-block; }
+
+.leftBlock {
+  float: left; }
+
+.rightBlock {
+  float: right; }
 
 body {
   background-color: #252525;
