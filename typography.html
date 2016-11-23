@@ -4,11 +4,45 @@
 <head>
   <title>BBC iPlayer UX | Typography</title>
   <link rel="stylesheet" href="src/css/core.css" />
+  <script id="bird-template" type="text/x-handlebars-template">
+    <div class="typography-demo gel-layout gel-1/1">
+      <div class="gel-layout__item gel-1/1 gel-3/12@m">
+        <p class="demo-title ipl-goose">{{typeSize}}</p>
+        <p class="typo-settings typo-settings--g3 ipl-{{toLowerCase typeSize}}">{{typeSettings.g3}}</p>
+        <p class="typo-settings typo-settings--g2 ipl-{{toLowerCase typeSize}}">{{typeSettings.g2}}</p>
+        <p class="typo-settings typo-settings--g1 ipl-{{toLowerCase typeSize}}">{{typeSettings.g1}}</p>
+      </div>
+      <p class="demo-body ipl-{{toLowerCase typeSize}} body-copy gel-layout__item gel-1/1 gel-9/12@m">{{exampleText}}</p>
+    </div>
+  </script>
+  <script id="typo-table-template" type="text/x-handlebars-template">
+    <table class="content content-table">
+      <tr class="table-header">
+        <th class=" ipl-goose-bold"></th>
+        <th class=" ipl-goose-bold">{{usedFor}}</th>
+        <th class=" ipl-goose-bold">G1</th>
+        <th class=" ipl-goose-bold">G2</th>
+        <th class=" ipl-goose-bold">G3 &amp;G4</th>
+      </tr>
+
+      {{#typography}}
+        {{>typoRow.hbs}}
+      {{/typography}}
+    </table>
+  </script>
 </head>
 
 <body>
   <div class="page-header">
     <div class="gel-wrap">
+      <div class="browserSize gel-layout">
+        <div class="gel-layout__item">
+        <p class="ipl-goose-bold browserSize browserSize--g1">Breakpoint: G1</p>
+        <p class="ipl-goose-bold browserSize browserSize--g2">Breakpoint: G2</p>
+        <p class="ipl-goose-bold browserSize browserSize--g3">Breakpoint: G3</p>
+        <p class="ipl-goose-bold browserSize browserSize--g4">Breakpoint: G4</p>
+      </div>
+    </div>
       <div class="gel-layout">
         <div class="gel-layout__item">
           <h1 class="ipl-eagle-bold title">Typography</h1>
@@ -17,156 +51,72 @@
       </div>
     </div>
   </div>
+  <!--page title-->
   <div class="gel-wrap">
     <div class="page-titles">
       <p class="ipl-buzzard-bold title">Demo </p>
       <div class="title-pipe"></div>
     </div>
-  </div>
-  <div class="gel-wrap">
-    <div class="typography-demo gel-layout gel-1/1">
-      <div class="gel-layout__item gel-1/1 gel-3/12@m">
-        <p class="demo-title ipl-goose">Eagle</p>
-        <p class="typo-settings ipl-eagle">46/54</p>
-      </div>
-      <p class="demo-body ipl-eagle-bold body-copy gel-layout__item gel-1/1 gel-9/12@m">The quick brown fox jumps over the lazy dog.</p>
     </div>
-    <!-- eagle end -->
-    <div class="typography-demo gel-layout gel-1/1">
-      <div class="gel-layout__item gel-1/1 gel-3/12@m">
-        <p class="demo-title ipl-goose">Buzzard</p>
-        <p class="typo-settings ipl-buzzard">32/32</p>
-      </div>
-      <p class="demo-body ipl-buzzard-bold body-copy gel-layout__item gel-1/1 gel-9/12@m">The quick brown fox jumps over the lazy dog.</p>
+  <!--typo demo -->
+  <div class="content content-typo gel-wrap">
     </div>
-    <!-- buzzard end -->
-    <div class="typography-demo gel-layout gel-1/1">
-      <div class="gel-layout__item gel-1/1 gel-3/12@m">
-        <p class="demo-title ipl-goose">Heron</p>
-        <p class="demo-title typo-settings ipl-heron">24/28</p>
-      </div>
-      <p class="demo-body ipl-heron body-copy gel-layout__item gel-1/1 gel-9/12@m">The quick brown fox jumps over the lazy dog.</p>
-    </div>
-    <!-- heron end -->
-    <div class="typography-demo gel-layout gel-1/1">
-      <div class="gel-layout__item gel-1/1 gel-3/12@m">
-        <p class="demo-title ipl-goose">Goose</p>
-        <p class="demo-title typo-settings ipl-goose">20/20</p>
-      </div>
-      <p class="demo-body ipl-goose body-copy gel-layout__item gel-1/1 gel-9/12@m">The quick brown fox jumps over the lazy dog.</p>
-    </div>
-    <!-- goose end -->
-    <div class="typography-demo gel-layout gel-1/1">
-      <div class="gel-layout__item gel-1/1 gel-3/12@m">
-        <p class="demo-title ipl-goose">Skylark</p>
-        <p class="demo-title typo-settings ipl-skylark">16/22</p>
-      </div>
-      <p class="demo-body ipl-skylark body-copy gel-layout__item gel-1/1 gel-9/12@m">The quick brown fox jumps over the lazy dog.</p>
-    </div>
-    <!-- skylark end -->
-    <div class="typography-demo gel-layout gel-1/1">
-      <div class="gel-layout__item gel-1/1 gel-3/12@m">
-        <p class="demo-title ipl-goose">Canary</p>
-        <p class="demo-title typo-settings ipl-canary">14/20</p>
-      </div>
-      <p class="demo-body ipl-canary body-copy gel-layout__item gel-1/1 gel-9/12@m">The quick brown fox jumps over the lazy dog.</p>
-    </div>
-    <!-- canary end -->
-    <div class="typography-demo gel-layout gel-1/1">
-      <div class="gel-layout__item gel-1/1 gel-3/12@m">
-        <p class="demo-title ipl-goose">Bullfinch</p>
-        <p class="demo-title typo-settings ipl-bullfinch">13/16</p>
-      </div>
-      <p class="demo-body ipl-bullfinch body-copy gel-layout__item gel-1/1 gel-9/12@m">The quick brown fox jumps over the lazy dog.</p>
-    </div>
-    <!-- bullfinch end -->
-    <div class="typography-demo gel-layout gel-1/1">
-      <div class="gel-layout__item gel-1/1 gel-3/12@m">
-        <p class="demo-title ipl-goose">Robin</p>
-        <p class="demo-title typo-settings ipl-robin-bold">13/16</p>
-      </div>
-      <p class="demo-body ipl-robin-bold body-copy gel-layout__item gel-1/1 gel-9/12@m">The quick brown fox jumps over the lazy dog.</p>
-    </div>
-    <!-- robin end -->
-  </div>
+   <!--page title-->
+  <!--page title-->
   <div class="gel-wrap">
     <div class="page-titles">
-      <p class="ipl-buzzard-bold title">Sizes </p>
+      <p class="ipl-buzzard-bold title">Sizes</p>
       <div class="title-pipe"></div>
     </div>
-  </div>
+   </div>
+
   <div class="gel-wrap">
     <div class="gel-layout gel-1/1">
-      <div class="type-sizes gel-layout__item gel-1/1">
-        <table>
-          <tr class="table-header">
-            <th class=" ipl-goose-bold"></th>
-            <th class=" ipl-goose-bold">Used for</th>
-            <th class=" ipl-goose-bold">G1</th>
-            <th class=" ipl-goose-bold">G2</th>
-            <th class=" ipl-goose-bold">G3 &amp;G4</th>
-          </tr>
-          <tr>
-            <td class="ipl-skylark-bold">Eagle</td>
-            <td class="ipl-canary">Full page titles </td>
-            <td class="ipl-canary">32/36</td>
-            <td class="ipl-canary">36/42</td>
-            <td class="ipl-canary">46/54</td>
-          </tr>
-          <tr>
-            <td class="ipl-skylark-bold">Buzzard</td>
-            <td class="ipl-canary">Titles</td>
-            <td class="ipl-canary">24/24</td>
-            <td class="ipl-canary">24/28</td>
-            <td class="ipl-canary">32/32</td>
-          </tr>
-          <tr>
-            <td class="ipl-skylark-bold">Heron</td>
-            <td class="ipl-canary">Titles</td>
-            <td class="ipl-canary">20/24</td>
-            <td class="ipl-canary">20/24</td>
-            <td class="ipl-canary">24/28</td>
-          </tr>
-          <tr>
-            <td class="ipl-skylark-bold">Goose</td>
-            <td class="ipl-canary">Titles</td>
-            <td class="ipl-canary">18/22</td>
-            <td class="ipl-canary">20/24</td>
-            <td class="ipl-canary">20/20</td>
-          </tr>
-          <tr>
-            <td class="ipl-skylark-bold">Skylark</td>
-            <td class="ipl-canary">body copy</td>
-            <td class="ipl-canary">15/20</td>
-            <td class="ipl-canary">16/22</td>
-            <td class="ipl-canary">16/22</td>
-          </tr>
-          <tr>
-            <td class="ipl-skylark-bold">Canary</td>
-            <td class="ipl-canary">body copy</td>
-            <td class="ipl-canary">15/18</td>
-            <td class="ipl-canary">16/20</td>
-            <td class="ipl-canary">14/20</td>
-          </tr>
-          <tr>
-            <td class="ipl-skylark-bold">Bullfinch</td>
-            <td class="ipl-canary">buttons</td>
-            <td class="ipl-canary">13/16</td>
-            <td class="ipl-canary">14/18</td>
-            <td class="ipl-canary">13/16</td>
-          </tr>
-          <tr>
-            <td class="ipl-skylark-bold">Robin</td>
-            <td class="ipl-canary">labels</td>
-            <td class="ipl-canary">1/16</td>
-            <td class="ipl-canary">11/16</td>
-            <td class="ipl-canary">11/16</td>
-          </tr>
-        </table>
+      <div class="type-sizes gel-layout__item gel-1/1" id="typo-table">
+
       </div>
     </div>
   </div>
+
+
+
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="bower_components/handlebars/handlebars.min.js"></script>
+    <script src="src/js/typography.js"></script>
+    <script src="src/js/typoRow.js"></script>
+
+  <script>
+
+    Handlebars.registerHelper('toLowerCase', function(str) {
+      return str.toLowerCase();
+    });
+
+    function renderBird(templateParameters) {
+      // get template html
+      var templateHTML = $("#bird-template").html();
+      // compile template htmls
+      var build = Handlebars.compile(templateHTML);
+      // build HTML with data
+      var builtHTML = build(templateParameters);
+      // render html with data to page
+      var $content = $('.content-typo').append(builtHTML);
+    }
+
+    function renderAllTheBirds() {
+      birdParameters.forEach(renderBird);
+    }
+
+    renderAllTheBirds();
+  </script>
+
+  <script>
+    var tableTemplate  = $('#typo-table-template').html();
+
+    var renderTable = Handlebars.compile(tableTemplate);
+
+    $('#typo-table').html(renderTable({ typography: birdParameters, usedFor: 'Used For'  }));
+  </script>
+
 </body>
 
 </html>
