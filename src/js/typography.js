@@ -55,7 +55,7 @@ var birdParameters = [{
   typeSettings: {
     g3: "14/20",
     g2: '16/20',
-    g1: '15/28'
+    g1: '15/18'
   },
   exampleText: exampleText,
   usedFor: 'Canary examples'
