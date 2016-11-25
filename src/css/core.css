@@ -1693,12 +1693,18 @@ td {
   color: #eee;
   vertical-align: middle;
   transition: color 0.4s ease 0s,background-color 0.4s ease 0s;
-  cursor: pointer; }
+  cursor: pointer;
+  display: inline-block; }
+  .btn p {
+    display: inline-block;
+    vertical-align: middle; }
+  .btn svg {
+    fill: #eee;
+    display: inline-block;
+    vertical-align: middle; }
   .btn:focus, .btn:hover {
-    background-color: #f54997;
+    background-color: #cf3e80;
     outline: 0; }
-    .btn:focus svg, .btn:hover svg {
-      fill: #f54997; }
   .btn--inverted {
     background-color: #cf3e80;
     color: #eee; }
@@ -1722,6 +1728,22 @@ td {
     .btn--relatedLinks:hover, .btn--relatedLinks:focus {
       background-color: transparent;
       color: #f54997; }
+      .btn--relatedLinks:hover svg, .btn--relatedLinks:focus svg {
+        fill: #f54997; }
+  .btn--leftIcon svg {
+    padding-right: 4px; }
+  .btn--rightIcon svg {
+    padding-left: 4px; }
+  .btn--animate {
+    text-transform: uppercase;
+    background-color: rgba(37, 37, 37, 0.7);
+    background: linear-gradient(to right, #cf3e80 50%, rgba(37, 37, 37, 0.7) 50%);
+    background-size: 204% 100%;
+    background-position: right bottom;
+    transition: background-position 0.5s; }
+    .btn--animate:hover {
+      background-position: left bottom;
+      background-color: rgba(37, 37, 37, 0.7); }
 
 .relatedLinks--outer {
   border-left: solid 6px #f54997; }
@@ -1755,10 +1777,12 @@ td {
       display: inline-block; }
 
 .leftBlock {
-  float: left; }
+  float: left;
+  padding-right: 4px; }
 
 .rightBlock {
-  float: right; }
+  float: right;
+  padding-left: 4px; }
 
 body {
   background-color: #252525;
