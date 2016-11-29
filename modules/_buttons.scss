@@ -197,3 +197,17 @@
     fill: $night;
   }
 }
+
+.dismiss{
+  background-color: transparent;
+  padding: 16px;
+  border:0;
+  cursor:pointer;
+  fill: $platinum;
+
+  &:hover,
+  &:focus{
+    fill:$magenta;
+  }
+
+}

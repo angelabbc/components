@@ -1810,6 +1810,15 @@ td {
   .carouselButtons svg {
     fill: #1e1e1e; }
 
+.dismiss {
+  background-color: transparent;
+  padding: 16px;
+  border: 0;
+  cursor: pointer;
+  fill: #eee; }
+  .dismiss:hover, .dismiss:focus {
+    fill: #f54997; }
+
 body {
   background-color: #252525;
   -webkit-font-smoothing: antialiased;
