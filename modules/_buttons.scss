@@ -211,3 +211,36 @@
   }
 
 }
+
+
+//LABELS
+
+.editorial-label{
+  background-color: $magenta;
+  color: $platinum;
+  padding: 0px 4px;
+  display: inline-block;
+  vertical-align: middle;
+
+  & p{
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &--pulsate{
+     animation: pulse 3s infinite;
+  }
+
+  @keyframes pulse {
+  0% {
+    background-color: $stone;
+  }
+  50% {
+    background-color: $magenta;
+  }
+  100% {
+    background-color: $stone;
+  }
+}
+
+  }

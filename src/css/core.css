@@ -1819,6 +1819,24 @@ td {
   .dismiss:hover, .dismiss:focus {
     fill: #f54997; }
 
+.editorial-label {
+  background-color: #f54997;
+  color: #eee;
+  padding: 0px 4px;
+  display: inline-block;
+  vertical-align: middle; }
+  .editorial-label p {
+    display: inline-block;
+    vertical-align: middle; }
+  .editorial-label--pulsate {
+    animation: pulse 3s infinite; }
+@keyframes pulse {
+  0% {
+    background-color: #444; }
+  50% {
+    background-color: #f54997; }
+  100% {
+    background-color: #444; } }
 body {
   background-color: #252525;
   -webkit-font-smoothing: antialiased;
