@@ -289,18 +289,27 @@
   width: 100%;
   fill:$platinum;
   height:32px;
-  padding:0 12px;
   transition: color 0.4s ease 0s,background-color 0.4s ease 0s;
 
   p{
     display: table-cell;
     vertical-align: middle;
-
-  }
+    padding: 0 12px;
+    }
 
   &:hover,
   &:focus{
       background-color: white;
       color: $storm;
+      }
+
+  &--active,
+  &--active:hover,
+  &--active:focus{
+    background-color: $raspberry;
+    color: $platinum;
+    cursor: default;
+
   }
+
 }

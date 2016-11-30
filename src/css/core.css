@@ -1866,14 +1866,18 @@ td {
   width: 100%;
   fill: #eee;
   height: 32px;
-  padding: 0 12px;
   transition: color 0.4s ease 0s,background-color 0.4s ease 0s; }
   .nav-item p {
     display: table-cell;
-    vertical-align: middle; }
+    vertical-align: middle;
+    padding: 0 12px; }
   .nav-item:hover, .nav-item:focus {
     background-color: white;
     color: #333; }
+  .nav-item--active, .nav-item--active:hover, .nav-item--active:focus {
+    background-color: #cf3e80;
+    color: #eee;
+    cursor: default; }
 
 body {
   background-color: #252525;
