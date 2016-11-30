@@ -244,3 +244,63 @@
 }
 
   }
+
+
+//NAVIGATION
+
+
+.filter-item{
+  color: $silver;
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+  fill:$silver;
+  margin-right:16px;
+  cursor: pointer;
+
+    svg,
+    p{
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+  &:hover,
+  &:focus{
+    fill:$white;
+    color: $white;
+  }
+
+  &--active,
+  &--active:hover,
+  &--active:focus{
+    cursor: default;
+    color: $magenta;
+    fill: $magenta;
+
+  }
+}
+
+.nav-item{
+  color: $platinum;
+  cursor: pointer;
+  text-align: left;
+  vertical-align: middle;
+  display: table;
+  width: 100%;
+  fill:$platinum;
+  height:32px;
+  padding:0 12px;
+  transition: color 0.4s ease 0s,background-color 0.4s ease 0s;
+
+  p{
+    display: table-cell;
+    vertical-align: middle;
+
+  }
+
+  &:hover,
+  &:focus{
+      background-color: white;
+      color: $storm;
+  }
+}

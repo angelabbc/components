@@ -1837,6 +1837,44 @@ td {
     background-color: #f54997; }
   100% {
     background-color: #444; } }
+.filter-item {
+  color: #bbb;
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+  fill: #bbb;
+  margin-right: 16px;
+  cursor: pointer; }
+  .filter-item svg,
+  .filter-item p {
+    display: inline-block;
+    vertical-align: middle; }
+  .filter-item:hover, .filter-item:focus {
+    fill: #fff;
+    color: #fff; }
+  .filter-item--active, .filter-item--active:hover, .filter-item--active:focus {
+    cursor: default;
+    color: #f54997;
+    fill: #f54997; }
+
+.nav-item {
+  color: #eee;
+  cursor: pointer;
+  text-align: left;
+  vertical-align: middle;
+  display: table;
+  width: 100%;
+  fill: #eee;
+  height: 32px;
+  padding: 0 12px;
+  transition: color 0.4s ease 0s,background-color 0.4s ease 0s; }
+  .nav-item p {
+    display: table-cell;
+    vertical-align: middle; }
+  .nav-item:hover, .nav-item:focus {
+    background-color: white;
+    color: #333; }
+
 body {
   background-color: #252525;
   -webkit-font-smoothing: antialiased;
