@@ -1867,10 +1867,14 @@ td {
   fill: #eee;
   height: 32px;
   transition: color 0.4s ease 0s,background-color 0.4s ease 0s; }
-  .nav-item p {
+  .nav-item p,
+  .nav-item svg {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: middle; }
+  .nav-item p {
     padding: 0 12px; }
+  .nav-item svg {
+    float: right; }
   .nav-item:hover, .nav-item:focus {
     background-color: white;
     color: #333; }

@@ -291,16 +291,27 @@
   height:32px;
   transition: color 0.4s ease 0s,background-color 0.4s ease 0s;
 
-  p{
+  p,
+  svg{
     display: table-cell;
     vertical-align: middle;
+
+    }
+
+  p{
     padding: 0 12px;
     }
 
-  &:hover,
-  &:focus{
-      background-color: white;
-      color: $storm;
+  svg{
+    float: right;
+  }
+
+
+
+    &:hover,
+    &:focus{
+    background-color: white;
+    color: $storm;
       }
 
   &--active,
