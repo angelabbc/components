@@ -1883,6 +1883,15 @@ td {
     color: #eee;
     cursor: default; }
 
+.progress {
+  height: 6px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.progress__bar {
+  height: 100%;
+  background-color: #f54997; }
+
 body {
   background-color: #252525;
   -webkit-font-smoothing: antialiased;
