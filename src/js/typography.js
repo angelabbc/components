@@ -80,3 +80,8 @@ var birdParameters = [{
   exampleText: exampleText,
   usedFor: 'Robin examples'
 }];
+
+
+    var tableTemplate  = $('#typo-table-template').html();
+    var renderTable = Handlebars.compile(tableTemplate);
+    $('#typo-table').html(renderTable({ typography: birdParameters, usedFor: 'Used For'  }));
