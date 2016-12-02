@@ -1893,7 +1893,7 @@ td {
 
 nav {
   height: 60px;
-  background-color: rgba(30, 30, 30, 0.95);
+  background-color: #1e1e1e;
   border-bottom: solid 1px #333;
   width: 100%;
   position: fixed;
@@ -1915,6 +1915,31 @@ nav ul li a {
 
 a.active {
   border-bottom: 2px solid #ecf0f1; }
+
+.toggleNavBtn {
+  text-align: right;
+  padding: 20px;
+  text-transform: uppercase; }
+
+#subnav {
+  width: 100%;
+  background-color: black;
+  border-top: solid 1px #333;
+  -webkit-transition: all 0.7s ease-out;
+  overflow: hidden;
+  max-height: 0px; }
+  #subnav.active {
+    border-bottom: solid 1px #333;
+    border-top: solid 1px #333;
+    height: auto;
+    max-height: 900px; }
+  #subnav ul {
+    width: 100%;
+    margin: 0 auto;
+    display: block; }
+    #subnav ul li {
+      display: block;
+      padding: 16px 0; }
 
 body {
   background-color: #252525;

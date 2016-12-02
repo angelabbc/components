@@ -18,7 +18,8 @@
 </head>
 
 <body>
-  <nav>
+
+  <nav class="browserSize--g3 browserSize--g4">
     <ul class="gel-wrap">
     <li><a class="ipl-canary lnk" href="typography.html">Typography</a></li>
     <li><a class="ipl-canary lnk" href="icons.html">Icons</a></li>
@@ -28,6 +29,20 @@
     <li><a class="ipl-canary lnk" href="atoms.html">Organism</a></li>
   </ul>
   </nav>
+  <nav class="toggleNav browserSize--g1 browserSize--g2">
+    <div class="toggleNavBtn ipl-canary lnk">Menu</div>
+    <div id="subnav">
+    <ul>
+      <li><a class="ipl-canary lnk" href="typography.html">Typography</a></li>
+      <li><a class="ipl-canary lnk" href="icons.html">Icons</a></li>
+      <li><a class="ipl-canary lnk" href="colours.html">Colours</a></li>
+      <li><a class="ipl-canary lnk" href="atoms.html">Atoms</a></li>
+      <li><a class="ipl-canary lnk" href="atoms.html">Molecules</a></li>
+      <li><a class="ipl-canary lnk" href="atoms.html">Organism</a></li>
+    </ul>
+  </div>
+  </nav>
+
       <div class="page-header">
         <div class="gel-wrap">
             <div class="browserSize gel-layout">
@@ -73,11 +88,8 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="bower_components/handlebars/handlebars.min.js"></script>
     <script src="src/js/colours.js"></script>
+    <script src="src/js/core.js"></script>
   <script>
-
-    Handlebars.registerHelper('toLowerCase', function(str) {
-      return str.toLowerCase();
-    });
 
     function renderPrimarySwatch(templateParameters) {
       // get template html
