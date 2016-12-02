@@ -37,10 +37,10 @@
     <div class="gel-wrap">
       <div class="browserSize gel-layout">
         <div class="gel-layout__item">
-        <p class="ipl-goose-bold browserSize browserSize--g1">Breakpoint: G1</p>
-        <p class="ipl-goose-bold browserSize browserSize--g2">Breakpoint: G2</p>
-        <p class="ipl-goose-bold browserSize browserSize--g3">Breakpoint: G3</p>
-        <p class="ipl-goose-bold browserSize browserSize--g4">Breakpoint: G4</p>
+          <p class="ipl-canary browserSize browserSize--g1">Breakpoint: G1</p>
+          <p class="ipl-canary browserSize browserSize--g2">Breakpoint: G2</p>
+          <p class="ipl-canary browserSize browserSize--g3">Breakpoint: G3</p>
+          <p class="ipl-canary browserSize browserSize--g4">Breakpoint: G4</p>
       </div>
     </div>
       <div class="gel-layout">
@@ -62,7 +62,7 @@
   <div class="content content-typo gel-wrap">
     </div>
    <!--page title-->
-  <!--page title-->
+
   <div class="gel-wrap">
     <div class="page-titles">
       <p class="ipl-buzzard-bold title">Sizes</p>
@@ -73,7 +73,6 @@
   <div class="gel-wrap">
     <div class="gel-layout gel-1/1">
       <div class="type-sizes gel-layout__item gel-1/1" id="typo-table">
-
       </div>
     </div>
   </div>
@@ -105,15 +104,12 @@
     function renderAllTheBirds() {
       birdParameters.forEach(renderBird);
     }
-
     renderAllTheBirds();
   </script>
 
   <script>
     var tableTemplate  = $('#typo-table-template').html();
-
     var renderTable = Handlebars.compile(tableTemplate);
-
     $('#typo-table').html(renderTable({ typography: birdParameters, usedFor: 'Used For'  }));
   </script>
 

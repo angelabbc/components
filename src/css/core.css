@@ -1556,8 +1556,10 @@ body {
 
 .page-header {
   background-color: #1e1e1e;
-  padding: 80px 0 40px 0;
+  padding: 100px 0 40px 0;
   margin: 0 0 32px 0; }
+  .page-header h1 {
+    margin: 16px 0 8px 0; }
 
 .demo-title {
   margin: 0;
@@ -1644,11 +1646,9 @@ td {
   padding-bottom: 8px; }
 
 .browserSize {
-  color: #444;
-  text-align: right;
-  position: absolute;
-  top: 16px;
-  right: 16px;
+  color: #777;
+  text-align: left;
+  text-transform: uppercase;
   width: 100%; }
   .browserSize--g2, .browserSize--g3, .browserSize--g4 {
     display: none; }
@@ -1887,10 +1887,34 @@ td {
   height: 6px;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5); }
+  .progress__bar {
+    height: 100%;
+    background-color: #f54997; }
 
-.progress__bar {
-  height: 100%;
-  background-color: #f54997; }
+nav {
+  height: 60px;
+  background-color: rgba(30, 30, 30, 0.95);
+  border-bottom: solid 1px #333;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: inline-block;
+  vertical-align: middle; }
+
+nav ul {
+  padding: 20px;
+  list-style: none;
+  text-align: left; }
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px; }
+
+nav ul li a {
+  text-transform: uppercase; }
+
+a.active {
+  border-bottom: 2px solid #ecf0f1; }
 
 body {
   background-color: #252525;
