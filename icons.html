@@ -18,10 +18,14 @@
       </div>
     </div>
   </script>
+  <script id="nav-bar-template" type="text/x-handlebars-template">
+      {{>nav.hbs}}
+  </script>
 
 </head>
 
 <body>
+  <div id="nav-bar"></div>
   <div class="page-header">
     <div class="gel-wrap">
       <div class="browserSize gel-layout">
@@ -58,7 +62,10 @@
 
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <script src="bower_components/handlebars/handlebars.min.js"></script>
+  <script src="src/js/core.js"></script>
   <script src="src/js/icons.js"></script>
+  <script src="src/js/navHbs.js"></script>
+  <script src="src/js/nav.js"></script>
   <script>
     Handlebars.registerHelper('toLowerCase', function(str) {
       return str.toLowerCase();
