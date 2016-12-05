@@ -3,7 +3,9 @@
 Handlebars.partials['nav.hbs'] = template({"1":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "      <li><a class=\"ipl-canary lnk\" href=\""
+  return "      <li class=\"navLink__"
+    + alias4(((helper = (helper = helpers.pageLink || (depth0 != null ? depth0.pageLink : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"pageLink","hash":{},"data":data}) : helper)))
+    + "\"><a class=\"ipl-canary lnk\" href=\""
     + alias4(((helper = (helper = helpers.pageLink || (depth0 != null ? depth0.pageLink : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"pageLink","hash":{},"data":data}) : helper)))
     + ".html\">"
     + alias4(((helper = (helper = helpers.pageTitle || (depth0 != null ? depth0.pageTitle : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"pageTitle","hash":{},"data":data}) : helper)))

@@ -1,7 +1,7 @@
 <nav class="browserSize--g3 browserSize--g4">
   <ul class="gel-wrap">
     {{#navLinks}}
-      <li><a class="ipl-canary lnk" href="{{pageLink}}.html">{{pageTitle}}</a></li>
+      <li class="navLink__{{pageLink}}"><a class="ipl-canary lnk" href="{{pageLink}}.html">{{pageTitle}}</a></li>
     {{/navLinks}}
   </ul>
 </nav>
@@ -10,7 +10,7 @@
   <div id="subnav">
   <ul>
     {{#navLinks}}
-      <li><a class="ipl-canary lnk" href="{{pageLink}}.html">{{pageTitle}}</a></li>
+      <li class="navLink__{{pageLink}}"><a class="ipl-canary lnk" href="{{pageLink}}.html">{{pageTitle}}</a></li>
     {{/navLinks}}
   </ul>
 </div>

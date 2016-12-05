@@ -1941,6 +1941,9 @@ a.active {
       display: block;
       padding: 16px 0; }
 
+.navLink--active a {
+  color: #f54997; }
+
 body {
   background-color: #252525;
   -webkit-font-smoothing: antialiased;
