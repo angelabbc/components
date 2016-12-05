@@ -1716,7 +1716,8 @@ td {
     background-color: transparent;
     border-top: solid 1px #444;
     width: 100%;
-    text-align: left; }
+    text-align: left;
+    transition: all 0.4s ease 0s; }
     @media (min-width: 25em) and (max-width: 37.49em) {
       .btn--relatedLinks {
         padding-right: 0; } }
@@ -1726,8 +1727,9 @@ td {
       vertical-align: middle;
       display: inline-block; }
     .btn--relatedLinks:hover, .btn--relatedLinks:focus {
+      border-top: solid 1px #f54997;
       background-color: transparent;
-      color: #f54997; }
+      color: #fff; }
       .btn--relatedLinks:hover svg, .btn--relatedLinks:focus svg {
         fill: #f54997; }
   .btn--leftIcon svg {
