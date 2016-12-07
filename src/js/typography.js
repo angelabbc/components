@@ -1,3 +1,6 @@
+
+var pageTitle = "Typography";
+var pageDescription = "Page Description";
 var exampleText = "The quick brown fox jumps over the lazy dog.";
 
 var birdParameters = [{

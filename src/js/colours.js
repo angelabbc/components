@@ -1,3 +1,6 @@
+var pageTitle = "Colours";
+var pageDescription = "Page Description";
+
 // Primary Colour Palette
 var primaryColours = [{
   colourName: "Black",

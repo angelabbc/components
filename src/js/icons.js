@@ -1,3 +1,6 @@
+var pageTitle = "Icons";
+var pageDescription = "Page Description";
+
 //iconParameters
 
 var AVIconSet = [{

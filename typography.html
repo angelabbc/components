@@ -32,32 +32,19 @@
   <script id="nav-bar-template" type="text/x-handlebars-template">
       {{>nav.hbs}}
   </script>
+  <script id="page-header-template" type="text/x-handlebars-template">
+      {{>pageHeader.hbs}}
+  </script>
+
 </head>
 
 <body>
   <div id="nav-bar"></div>
-  <div class="page-header">
-    <div class="gel-wrap">
-      <div class="browserSize gel-layout">
-        <div class="gel-layout__item">
-          <p class="ipl-canary browserSize browserSize--g1">Breakpoint: G1</p>
-          <p class="ipl-canary browserSize browserSize--g2">Breakpoint: G2</p>
-          <p class="ipl-canary browserSize browserSize--g3">Breakpoint: G3</p>
-          <p class="ipl-canary browserSize browserSize--g4">Breakpoint: G4</p>
-      </div>
-    </div>
-      <div class="gel-layout">
-        <div class="gel-layout__item">
-          <h1 class="ipl-eagle-bold title">Typography</h1>
-          <p class="ipl-skylark body-copy gel-8/12@m">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Integer viverra eros nibh,nec faucibus ligula mattis vitae. Etiam varius sit amet nisi et dictum.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+  <div id="pageHeader"></div>
   <!--page title-->
   <div class="gel-wrap">
     <div class="page-titles">
-      <p class="ipl-buzzard-bold title">Demo </p>
+      <p class="ipl-buzzard-bold title">Demo</p>
       <div class="title-pipe"></div>
     </div>
     </div>
@@ -85,16 +72,12 @@
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <script src="bower_components/handlebars/handlebars.min.js"></script>
   <script src="src/js/core.js"></script>
-    <script src="src/js/typography.js"></script>
-    <script src="src/js/typoRow.js"></script>
-    <script src="src/js/navHbs.js"></script>
-    <script src="src/js/nav.js"></script>
-
+  <script src="src/js/typography.js"></script>
+  <script src="src/js/typoRow.js"></script>
+  <script src="src/js/navHbs.js"></script>
+  <script src="src/js/nav.js"></script>
+  <script src="src/js/pageHeader.js"></script>
   <script>
-
-    Handlebars.registerHelper('toLowerCase', function(str) {
-      return str.toLowerCase();
-    });
 
     function renderBird(templateParameters) {
       // get template html
@@ -117,6 +100,12 @@
     var tableTemplate  = $('#typo-table-template').html();
     var renderTable = Handlebars.compile(tableTemplate);
     $('#typo-table').html(renderTable({ typography: birdParameters, usedFor: 'Used For'  }));
+  </script>
+
+  <script>
+    var headerTemplate  = $('#page-header-template').html();
+    var renderheader = Handlebars.compile(headerTemplate);
+    $('#pageHeader').html(renderheader({pageTitle:pageTitle, pageDescription:pageDescription}));
   </script>
 
   <script>
