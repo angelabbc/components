@@ -266,6 +266,10 @@
       vertical-align: middle;
     }
 
+    svg{
+      padding-right: 8px;
+    }
+
   &:hover,
   &:focus{
     fill:$white;
@@ -336,4 +340,21 @@
     height: 100%;
   background-color: $magenta;
   }
+}
+
+
+
+.duration-label,
+.duration-label__icon,
+.duration-label__time {
+  display: inline-block;
+  vertical-align: middle;
+  fill: $silver;
+  color: $silver;
+}
+
+.duration-label svg{
+  padding-right: 8px;
+  vertical-align: middle;
+  display: inline-block;
 }
