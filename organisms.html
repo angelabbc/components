@@ -13,40 +13,124 @@
 </head>
 
 <body>
-  <div id="nav-bar"></div>
+
     <div id="pageHeader"></div>
 
     <div class="gel-wrap">
         <div class="gel-layout">
-            <div class="gel-layout__item">
+            <div class="gel-layout__item gel-1/1">
                 <div class="organism_item">
                     <div class="organism-item-demo">
-                      <div class="modal">
-                        <div class="modal__inner">
-                          <div class="modal__description">
-                            <h2 class="modal__title ipl-buzzard-bold">Modal Title</h2>
-                            <p class="modal__description ipl-skylark">Modal Description</p>
+                        <div class="modal">
+                            <div class="modal__inner">
+                                <div class="modal__description">
+                                    <h2 class="modal__title ipl-buzzard-bold">Modal Title</h2>
+                                    <p class="modal__subtitle ipl-skylark-bold">Modal subtitle</p>
+                                    <p class="modal__description ipl-skylark">Modal Description</p>
+                                    <div class="modal__links lnk lnk--icon ipl-bullfinch">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 32 32">
+                                        <path d="M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zm2 25h-4V13h4v12zm0-14h-4V7h4v4z" /></svg><a>Find out more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal__buttons">
+                                <button class="btn btn--modal-stacked-buttons">
+                                  <p class="ipl-skylark-bold">Buttons longer than 14 characters</p>
+                                </button>
+                                <button class="btn btn--modal-stacked-buttons">
+                                  <p class="ipl-skylark-bold">Button</p>
+                                </button>
+                            </div>
+                            <button class="modal__dismiss dismiss">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32"><path d="M32 3.5L28.5 0 16 12.5 3.5 0 0 3.5 12.5 16 0 28.5 3.5 32 16 19.5 28.5 32l3.5-3.5L19.5 16z"/></svg>
+                            </button>
                           </div>
-                        </div>
-                        <div class="modal__buttons">
-                        </div>
-                      </div>
                         <div class="organism-item-title">
-                            <p class="ipl-skylark-bold title">
-                                Modal
-                            </p>
+                            <p class="ipl-skylark-bold title">Modal with stacked buttons</p>
                         </div>
                         <div class="organism-item-description">
-                            <p class="ipl-canary body-copy">
-                                Description
-                            </p>
+                            <p class="ipl-canary body-copy">Description</p>
                         </div>
                     </div>
-                  </div>
                 </div>
+            </div>
+            <div class="gel-layout__item gel-1/1">
+                <div class="organism_item">
+                    <div class="organism-item-demo">
+                        <div class="modal">
+                            <div class="modal__inner">
+                                <div class="modal__description">
+                                    <h2 class="modal__title ipl-buzzard-bold">Modal Title</h2>
+                                    <p class="modal__subtitle ipl-skylark-bold">Modal subtitle</p>
+                                    <p class="modal__description ipl-skylark">Modal Description</p>
+                                    <div class="modal__links lnk lnk--icon ipl-bullfinch">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 32 32">
+                                        <path d="M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zm2 25h-4V13h4v12zm0-14h-4V7h4v4z" /></svg><a>Find out more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal__buttons">
+                                <button class="btn btn--modal-inline-buttons">
+                                  <p class="ipl-skylark-bold">Button</p>
+                                </button><button class="btn btn--modal-inline-buttons">
+                                  <p class="ipl-skylark-bold">Button</p>
+                                </button>
+                            </div>
+                            <button class="modal__dismiss dismiss">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32"><path d="M32 3.5L28.5 0 16 12.5 3.5 0 0 3.5 12.5 16 0 28.5 3.5 32 16 19.5 28.5 32l3.5-3.5L19.5 16z"/></svg>
+                            </button>
+                          </div>
+                        <div class="organism-item-title">
+                            <p class="ipl-skylark-bold title">Modal with in-line buttons</p>
+                        </div>
+                        <div class="organism-item-description">
+                            <p class="ipl-canary body-copy">Description</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gel-layout__item gel-1/1">
+                <div class="organism_item">
+                    <div class="organism-item-demo">
+                        <div class="modal">
+                            <div class="modal__inner">
+                                <div class="modal__description">
+                                    <h2 class="modal__title ipl-buzzard-bold">Parental Guidance</h2>
+                                    <div class="modal__guidance">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32"><circle cx="16" cy="16" r="16"/><path fill="#FFF" d="M23.4 24h-2.7l-.2-1.7c-1.1 1.5-3 2.1-4.5 2.1-4.8 0-8-3.7-8-8.3s3.1-8.3 8-8.3c3.3 0 6.8 1.8 7.2 5.8H19c-.1-1.4-1.5-2.2-3.2-2.2-2.7 0-3.7 2.4-3.7 4.7 0 2.4 1 4.7 3.7 4.7 2.1 0 3.4-1 3.7-2.4h-2.9v-3.1h6.7V24z"/></svg><p class="ipl-bullfinch" class="ipl-bullfinch">Contains some strong language and some scenes of a sexual nature.
+                                      </p></div>
+                                    <p class="modal__description ipl-skylark">You're signed in as someone who's under 16. So you need permission from a parent or guardian to play this.</p>
+                                    <div class="modal__checkbox">
+                                      <form action=""><input type="checkbox"><p class="ipl-skylark-bold">I have permission</p></form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal__buttons">
+                                <button class="btn btn--modal-inline-buttons">
+                                  <p class="ipl-skylark-bold">Button</p>
+                                </button><button class="btn btn--modal-inline-buttons">
+                                  <p class="ipl-skylark-bold">Button</p>
+                                </button>
+                            </div>
+                            <button class="modal__dismiss dismiss">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32"><path d="M32 3.5L28.5 0 16 12.5 3.5 0 0 3.5 12.5 16 0 28.5 3.5 32 16 19.5 28.5 32l3.5-3.5L19.5 16z"/></svg>
+                            </button>
+                          </div>
+                        <div class="organism-item-title">
+                            <p class="ipl-skylark-bold title">Modal with guidance (under 16)</p>
+                        </div>
+                        <div class="organism-item-description">
+                            <p class="ipl-canary body-copy">Description</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- gel-layout -->
+    </div>
+    <!--gel wrap-->
 
-        </div> <!-- gel-layout -->
-    </div> <!--gel wrap-->
+    <div id="nav-bar"></div>
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="bower_components/handlebars/handlebars.min.js"></script>
@@ -56,13 +140,16 @@
     <script src="src/js/pageHeader.js"></script>
 
     <script>
-      var headerTemplate  = $('#page-header-template').html();
-      var renderheader = Handlebars.compile(headerTemplate);
-      $('#pageHeader').html(renderheader({pageTitle:"Organisms", pageDescription:"Page Description"}));
+        var headerTemplate = $('#page-header-template').html();
+        var renderheader = Handlebars.compile(headerTemplate);
+        $('#pageHeader').html(renderheader({
+            pageTitle: "Organisms",
+            pageDescription: "Page Description"
+        }));
     </script>
 
     <script>
-    $( ".organisms" ).addClass( "navLink--active" );
+      $( ".navLink__organisms" ).addClass("navLink--active");
     </script>
 
 </body>
