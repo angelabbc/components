@@ -14,8 +14,10 @@ $gel-grid-enable--whitespace-fix: true;
 @import "../modules/page-template";
 @import "../modules/icon-demo";
 @import "../modules/atom-template";
+@import "../modules/organism-template";
 @import "../modules/buttons";
 @import "../modules/lists";
+@import "../modules/modal";
 @import "../modules/nav";
 
 
@@ -30,6 +32,7 @@ body{
 
 }
 
-p{
+p,
+h2{
   margin: 0;
 }

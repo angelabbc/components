@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>BBC iPlayer UX | Molecules</title>
+    <title>BBC iPlayer UX | Organisms</title>
     <link rel="stylesheet" href="src/css/core.css" />
     <script id="nav-bar-template" type="text/x-handlebars-template">
         {{>nav.hbs}}
@@ -18,26 +18,32 @@
 
     <div class="gel-wrap">
         <div class="gel-layout">
-            <div class="gel-layout__item gel-1/1 gel-6/12@m gel-4/12@l">
-                <div class="atom_item">
-                    <div class="atom-item-demo">
-                        <div class="inline-list--separated">
-                            <li class="inline-list__item ipl-bullfinch-bold"><a class="lnk" ref="#">List item 1</a></li><li class="inline-list__item ipl-bullfinch-bold"><a class="lnk" ref="#">List item 2</a></li>
-                            <li class="inline-list__item ipl-bullfinch-bold"><a class="lnk" ref="#">List item 3</a></li>
+            <div class="gel-layout__item">
+                <div class="organism_item">
+                    <div class="organism-item-demo">
+                      <div class="modal">
+                        <div class="modal__inner">
+                          <div class="modal__description">
+                            <h2 class="modal__title ipl-buzzard-bold">Modal Title</h2>
+                            <p class="modal__description ipl-skylark">Modal Description</p>
+                          </div>
                         </div>
-                        <div class="atom-item-title">
+                        <div class="modal__buttons">
+                        </div>
+                      </div>
+                        <div class="organism-item-title">
                             <p class="ipl-skylark-bold title">
-                                Inline lists
+                                Modal
                             </p>
                         </div>
-                        <div class="atom-item-description">
+                        <div class="organism-item-description">
                             <p class="ipl-canary body-copy">
                                 Description
                             </p>
                         </div>
                     </div>
+                  </div>
                 </div>
-            </div>
 
         </div> <!-- gel-layout -->
     </div> <!--gel wrap-->
@@ -52,11 +58,11 @@
     <script>
       var headerTemplate  = $('#page-header-template').html();
       var renderheader = Handlebars.compile(headerTemplate);
-      $('#pageHeader').html(renderheader({pageTitle:"Molecules", pageDescription:"Page Description"}));
+      $('#pageHeader').html(renderheader({pageTitle:"Organisms", pageDescription:"Page Description"}));
     </script>
 
     <script>
-    $( ".navLink__molecules" ).addClass( "navLink--active" );
+    $( ".organisms" ).addClass( "navLink--active" );
     </script>
 
 </body>

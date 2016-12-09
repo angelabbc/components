@@ -1684,6 +1684,13 @@ td {
   text-align: center;
   padding: 32px 0px; }
 
+.organism-item-title {
+  padding-top: 24px; }
+
+.organism-item-demo {
+  text-align: left;
+  padding: 32px 0px; }
+
 .btn {
   min-width: 100px;
   background-color: #333;
@@ -1920,6 +1927,20 @@ td {
 .inline-list__item {
   display: inline-block; }
 
+.modal {
+  width: 456px;
+  background-color: #2a2a2a;
+  padding: 56px 32px 32px;
+  text-align: center; }
+  .modal__title {
+    color: #f54997; }
+  .modal__description {
+    color: #bbb;
+    margin-top: 8px; }
+  .modal__buttons--stacked {
+    height: 56px;
+    text-align: center; }
+
 nav {
   height: 60px;
   background-color: #1e1e1e;
@@ -1978,7 +1999,8 @@ body {
   -webkit-font-smoothing: antialiased;
   margin: 0 0 80px 0; }
 
-p {
+p,
+h2 {
   margin: 0; }
 
 /*# sourceMappingURL=core.css.map */
