@@ -1717,7 +1717,8 @@ td {
     border-top: solid 1px #444;
     width: 100%;
     text-align: left;
-    transition: all 0.4s ease 0s; }
+    transition: all 0.4s ease 0s;
+    padding-right: 8px; }
     @media (min-width: 25em) and (max-width: 37.49em) {
       .btn--relatedLinks {
         padding-right: 0; } }
@@ -1733,9 +1734,9 @@ td {
       .btn--relatedLinks:hover svg, .btn--relatedLinks:focus svg {
         fill: #f54997; }
   .btn--leftIcon svg {
-    padding-right: 4px; }
+    padding-right: 8px; }
   .btn--rightIcon svg {
-    padding-left: 4px; }
+    padding-left: 8px; }
   .btn--animate {
     text-transform: uppercase;
     background-color: rgba(37, 37, 37, 0.7);
@@ -1906,6 +1907,17 @@ td {
 .duration-label svg {
   padding-right: 8px;
   vertical-align: middle;
+  display: inline-block; }
+
+.inline-list--separated .inline-list__item {
+  border-left: 1px solid #444;
+  padding-left: 16px;
+  margin-left: 16px; }
+.inline-list--separated .inline-list__item:first-child {
+  border-left: 0;
+  padding-left: 0;
+  margin-left: 0; }
+.inline-list__item {
   display: inline-block; }
 
 nav {

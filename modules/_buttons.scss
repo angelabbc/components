@@ -51,6 +51,7 @@
       width: 100%;
       text-align: left;
       transition: all 0.4s ease 0s;
+      padding-right: 8px;
 
       @include mq($from: gel-bp-s, $until: gel-bp-m){
         padding-right: 0;
@@ -76,13 +77,13 @@
 
     &--leftIcon{
       svg{
-        padding-right:4px;
+        padding-right:8px;
       }
     }
 
     &--rightIcon{
       svg{
-        padding-left:4px;
+        padding-left:8px;
       }
     }
 

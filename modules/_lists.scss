@@ -1,0 +1,19 @@
+.inline-list {
+  &--separated {
+    .inline-list__item {
+      border-left: 1px solid $stone;
+      padding-left: 16px;
+      margin-left: 16px;
+    }
+
+    .inline-list__item:first-child {
+      border-left: 0;
+      padding-left: 0;
+      margin-left: 0;
+    }
+  }
+
+  &__item {
+    display: inline-block;
+  }
+}
