@@ -4,7 +4,7 @@
     padding: 0 12px;
     height: 40px;
     border: 0;
-    color: $platinum;
+    color: $white;
     vertical-align: middle;
     transition: color 0.4s ease 0s,background-color 0.4s ease 0s;
     cursor: pointer;
@@ -16,7 +16,7 @@
     }
 
     svg{
-    fill:$platinum;
+    fill:$white;
     display: inline-block;
     vertical-align: middle;
 
@@ -32,7 +32,7 @@
 
     &--inverted{
       background-color: $raspberry;
-      color: $platinum;
+      color: $white;
 
       &:hover,
       &:focus{
@@ -133,7 +133,7 @@
 
 .lnk {
     text-decoration: none;
-    color: $platinum;
+    color: $white;
     transition: color 0.4s ease 0s,background-color 0.4s ease 0s;
     cursor: pointer;
 
@@ -172,6 +172,25 @@
             display: inline-block;
         }
     }
+
+    &--dropdown {
+        font-weight: bold;
+        display: table;
+        margin: auto;
+
+        a {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        svg {
+            fill: $silver;
+            padding-left: 6px;
+            transition: fill 0.4s ease 0s,background-color 0.4s ease 0s;
+            vertical-align: middle;
+            display: inline-block;
+        }
+    }
 }
 
 .leftBlock{
@@ -193,7 +212,7 @@
 }
 
 .carouselButtons{
-  background-color: $platinum;
+  background-color: $white;
   svg{
     fill: $night;
   }
@@ -204,7 +223,7 @@
   padding: 16px;
   border:0;
   cursor:pointer;
-  fill: $platinum;
+  fill: $white;
 
   &:hover,
   &:focus{
@@ -217,8 +236,8 @@
 //LABELS
 
 .editorial-label{
-  background-color: $magenta;
-  color: $platinum;
+  background-color: $raspberry;
+  color: $white;
   padding: 0px 4px;
   display: inline-block;
   vertical-align: middle;
@@ -237,7 +256,7 @@
     background-color: $stone;
   }
   50% {
-    background-color: $magenta;
+    background-color: $raspberry;
   }
   100% {
     background-color: $stone;
@@ -279,20 +298,20 @@
   &--active:hover,
   &--active:focus{
     cursor: default;
-    color: $magenta;
-    fill: $magenta;
+    color: $raspberry;
+    fill: $raspberry;
 
   }
 }
 
 .nav-item{
-  color: $platinum;
+  color: $white;
   cursor: pointer;
   text-align: left;
   vertical-align: middle;
   display: table;
   width: 100%;
-  fill:$platinum;
+  fill:$white;
   height:32px;
   transition: color 0.4s ease 0s,background-color 0.4s ease 0s;
 
@@ -323,7 +342,7 @@
   &--active:hover,
   &--active:focus{
     background-color: $raspberry;
-    color: $platinum;
+    color: $white;
     cursor: default;
 
   }

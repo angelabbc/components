@@ -1750,7 +1750,7 @@ a.active {
   padding: 0 12px;
   height: 40px;
   border: 0;
-  color: #eee;
+  color: #fff;
   vertical-align: middle;
   transition: color 0.4s ease 0s,background-color 0.4s ease 0s;
   cursor: pointer;
@@ -1759,7 +1759,7 @@ a.active {
     display: inline-block;
     vertical-align: middle; }
   .btn svg {
-    fill: #eee;
+    fill: #fff;
     display: inline-block;
     vertical-align: middle; }
   .btn:focus, .btn:hover {
@@ -1767,7 +1767,7 @@ a.active {
     outline: 0; }
   .btn--inverted {
     background-color: #cf3e80;
-    color: #eee; }
+    color: #fff; }
     .btn--inverted:hover, .btn--inverted:focus {
       background-color: #444; }
   .btn--fullwidth {
@@ -1827,7 +1827,7 @@ a.active {
 
 .lnk {
   text-decoration: none;
-  color: #eee;
+  color: #fff;
   transition: color 0.4s ease 0s,background-color 0.4s ease 0s;
   cursor: pointer; }
   .lnk:hover {
@@ -1852,6 +1852,19 @@ a.active {
       transition: fill 0.4s ease 0s,background-color 0.4s ease 0s;
       vertical-align: middle;
       display: inline-block; }
+  .lnk--dropdown {
+    font-weight: bold;
+    display: table;
+    margin: auto; }
+    .lnk--dropdown a {
+      display: inline-block;
+      vertical-align: middle; }
+    .lnk--dropdown svg {
+      fill: #bbb;
+      padding-left: 6px;
+      transition: fill 0.4s ease 0s,background-color 0.4s ease 0s;
+      vertical-align: middle;
+      display: inline-block; }
 
 .leftBlock {
   float: left;
@@ -1869,7 +1882,7 @@ a.active {
   margin: 1px; }
 
 .carouselButtons {
-  background-color: #eee; }
+  background-color: #fff; }
   .carouselButtons svg {
     fill: #1e1e1e; }
 
@@ -1878,13 +1891,13 @@ a.active {
   padding: 16px;
   border: 0;
   cursor: pointer;
-  fill: #eee; }
+  fill: #fff; }
   .dismiss:hover, .dismiss:focus {
     fill: #f54997; }
 
 .editorial-label {
-  background-color: #f54997;
-  color: #eee;
+  background-color: #cf3e80;
+  color: #fff;
   padding: 0px 4px;
   display: inline-block;
   vertical-align: middle; }
@@ -1897,7 +1910,7 @@ a.active {
   0% {
     background-color: #444; }
   50% {
-    background-color: #f54997; }
+    background-color: #cf3e80; }
   100% {
     background-color: #444; } }
 .filter-item {
@@ -1919,17 +1932,17 @@ a.active {
     color: #fff; }
   .filter-item--active, .filter-item--active:hover, .filter-item--active:focus {
     cursor: default;
-    color: #f54997;
-    fill: #f54997; }
+    color: #cf3e80;
+    fill: #cf3e80; }
 
 .nav-item {
-  color: #eee;
+  color: #fff;
   cursor: pointer;
   text-align: left;
   vertical-align: middle;
   display: table;
   width: 100%;
-  fill: #eee;
+  fill: #fff;
   height: 32px;
   transition: color 0.4s ease 0s,background-color 0.4s ease 0s; }
   .nav-item p,
@@ -1945,7 +1958,7 @@ a.active {
     color: #333; }
   .nav-item--active, .nav-item--active:hover, .nav-item--active:focus {
     background-color: #cf3e80;
-    color: #eee;
+    color: #fff;
     cursor: default; }
 
 .progress {
