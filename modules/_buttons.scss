@@ -175,20 +175,11 @@
 
     &--dropdown {
         font-weight: bold;
-        display: table;
-        margin: auto;
-
-        a {
-            display: inline-block;
-            vertical-align: middle;
-        }
 
         svg {
             fill: $silver;
             padding-left: 6px;
             transition: fill 0.4s ease 0s,background-color 0.4s ease 0s;
-            vertical-align: middle;
-            display: inline-block;
         }
     }
 }

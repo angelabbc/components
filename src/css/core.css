@@ -1853,18 +1853,11 @@ a.active {
       vertical-align: middle;
       display: inline-block; }
   .lnk--dropdown {
-    font-weight: bold;
-    display: table;
-    margin: auto; }
-    .lnk--dropdown a {
-      display: inline-block;
-      vertical-align: middle; }
+    font-weight: bold; }
     .lnk--dropdown svg {
       fill: #bbb;
       padding-left: 6px;
-      transition: fill 0.4s ease 0s,background-color 0.4s ease 0s;
-      vertical-align: middle;
-      display: inline-block; }
+      transition: fill 0.4s ease 0s,background-color 0.4s ease 0s; }
 
 .leftBlock {
   float: left;
