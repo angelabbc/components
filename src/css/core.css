@@ -2055,6 +2055,39 @@ a.active {
     .btn--modal-inline-buttons:first-child {
       border-right: solid 1px #444; } }
 
+.title-block {
+  text-align: left;
+  display: inline-block; }
+  .title-block__play {
+    vertical-align: top;
+    padding-bottom: 12px; }
+    @media (min-width: 37.5em) {
+      .title-block__play {
+        display: inline-block; } }
+    .title-block__play > .singleIcon-container {
+      width: 44px;
+      height: 44px; }
+      @media (min-width: 37.5em) {
+        .title-block__play > .singleIcon-container {
+          height: 72px;
+          width: 72px; } }
+  @media (min-width: 37.5em) {
+    .title-block__description {
+      display: inline-block;
+      padding-left: 16px; } }
+  .title-block__description .title {
+    padding-bottom: 8px;
+    color: #fff; }
+    @media (min-width: 37.5em) {
+      .title-block__description .title {
+        padding-bottom: 10px; } }
+  .title-block__description .episode {
+    padding-bottom: 8px;
+    color: #fff; }
+    @media (min-width: 37.5em) {
+      .title-block__description .episode {
+        padding-bottom: 12px; } }
+
 body {
   background-color: #252525;
   -webkit-font-smoothing: antialiased;

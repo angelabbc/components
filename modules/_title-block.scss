@@ -1,0 +1,49 @@
+.title-block{
+  text-align: left;
+  display: inline-block;
+
+  &__play{
+    vertical-align: top;
+    padding-bottom: 12px;
+
+    @include mq($from: gel-bp-m) {
+      display: inline-block;
+    }
+
+    > .singleIcon-container{
+      width: 44px;
+      height: 44px;
+
+      @include mq($from: gel-bp-m) {
+        height:72px;
+        width:72px;
+      }
+
+    }
+  }
+
+  &__description{
+
+    @include mq($from: gel-bp-m) {
+      display: inline-block;
+      padding-left: 16px;
+    }
+
+    .title{
+      padding-bottom: 8px;
+      color: $white;
+
+      @include mq($from: gel-bp-m) {
+      padding-bottom: 10px;
+    }
+  }
+
+    .episode{
+    padding-bottom: 8px;
+    color: $white;
+    @include mq($from: gel-bp-m) {
+      padding-bottom: 12px;
+    }
+  }
+}
+}
