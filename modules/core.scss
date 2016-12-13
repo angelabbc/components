@@ -23,17 +23,20 @@ $gel-grid-enable--whitespace-fix: true;
 
 
 $default-padding:16px;
-$link-color: $platinum;
+$link-color: $white;
 $link-hover-color: $magenta;
 
 body{
   background-color: $gray;
   -webkit-font-smoothing: antialiased;
   margin: 0 0 80px 0;
-
 }
 
 p,
 h2{
   margin: 0;
+}
+
+.no-wrap{
+  white-space: nowrap;
 }

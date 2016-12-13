@@ -2064,4 +2064,7 @@ p,
 h2 {
   margin: 0; }
 
+.no-wrap {
+  white-space: nowrap; }
+
 /*# sourceMappingURL=core.css.map */
