@@ -104,3 +104,40 @@
 
 }
 }
+
+
+.modal__checkbox{
+
+  margin:24px 0px 0px 0px;
+
+  svg {
+    width: 16px;
+  height: 16px;
+  padding:8px;
+    display: inline-block;
+  vertical-align:middle;
+  background-color:$white;
+}
+label {
+  position: relative;
+  cursor: pointer;
+    display: inline-block;
+  vertical-align:middle;
+
+}
+input[type="checkbox"] {
+  opacity: 0;
+  width: 0px;
+  height: 0px;
+  margin:0px;
+}
+
+input[type="checkbox"]:checked ~ label svg path {
+  fill:$storm;
+}
+
+.checkbox__text{
+	padding-left:16px;
+}
+
+}

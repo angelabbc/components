@@ -2055,6 +2055,30 @@ a.active {
     .btn--modal-inline-buttons:first-child {
       border-right: solid 1px #444; } }
 
+.modal__checkbox {
+  margin: 24px 0px 0px 0px; }
+  .modal__checkbox svg {
+    width: 16px;
+    height: 16px;
+    padding: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #fff; }
+  .modal__checkbox label {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle; }
+  .modal__checkbox input[type="checkbox"] {
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+    margin: 0px; }
+  .modal__checkbox input[type="checkbox"]:checked ~ label svg path {
+    fill: #333; }
+  .modal__checkbox .checkbox__text {
+    padding-left: 16px; }
+
 .title-block {
   text-align: left;
   display: inline-block; }
