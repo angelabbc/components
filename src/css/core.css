@@ -1760,11 +1760,14 @@ a.active {
     vertical-align: middle; }
   .btn svg {
     fill: #bbb;
+    transition: fill 0.4s ease 0s,background-color 0.4s ease 0s;
     display: inline-block;
     vertical-align: middle; }
   .btn:focus, .btn:hover {
     background-color: #cf3e80;
     outline: 0; }
+    .btn:focus svg, .btn:hover svg {
+      fill: #fff; }
   .btn--inverted {
     background-color: #cf3e80;
     color: #fff; }
@@ -1782,15 +1785,9 @@ a.active {
     @media (min-width: 25em) and (max-width: 37.49em) {
       .btn--relatedLinks {
         padding-right: 0; } }
-    .btn--relatedLinks svg {
-      fill: #bbb;
-      transition: fill 0.4s ease 0s,background-color 0.4s ease 0s;
-      vertical-align: middle;
-      display: inline-block; }
     .btn--relatedLinks:hover, .btn--relatedLinks:focus {
       border-top: solid 1px #f54997;
-      background-color: transparent;
-      color: #fff; }
+      background-color: transparent; }
       .btn--relatedLinks:hover svg, .btn--relatedLinks:focus svg {
         fill: #f54997; }
   .btn--leftIcon svg {

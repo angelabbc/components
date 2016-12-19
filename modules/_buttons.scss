@@ -17,6 +17,7 @@
 
     svg{
     fill:$silver;
+    transition: fill 0.4s ease 0s,background-color 0.4s ease 0s;
     display: inline-block;
     vertical-align: middle;
 
@@ -28,7 +29,13 @@
         background-color: $raspberry;
         outline: 0;
 
+        svg{
+        fill:$white;
+
+        }
+
     }
+
 
     &--inverted{
       background-color: $raspberry;
@@ -57,18 +64,10 @@
         padding-right: 0;
       }
 
-      svg{
-        fill: $silver;
-        transition: fill 0.4s ease 0s,background-color 0.4s ease 0s;
-        vertical-align: middle;
-        display: inline-block;
-      }
-
       &:hover,
       &:focus{
         border-top: solid 1px $magenta;
         background-color: transparent;
-        color: $white;
         svg{
         fill: $magenta;
         }
