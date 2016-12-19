@@ -1759,7 +1759,7 @@ a.active {
     display: inline-block;
     vertical-align: middle; }
   .btn svg {
-    fill: #fff;
+    fill: #bbb;
     display: inline-block;
     vertical-align: middle; }
   .btn:focus, .btn:hover {
