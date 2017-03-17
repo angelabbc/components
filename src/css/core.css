@@ -2109,6 +2109,11 @@ a.active {
       .title-block__description .episode {
         padding-bottom: 12px; } }
 
+.rs-image img {
+  width: 100%;
+  height: auto;
+  display: block; }
+
 body {
   background-color: #252525;
   -webkit-font-smoothing: antialiased;
